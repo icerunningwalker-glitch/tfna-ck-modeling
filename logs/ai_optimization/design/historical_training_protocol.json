@@ -1,0 +1,26 @@
+{
+  "model_version": "historical_frozen_MLP_16_hidden_20261001",
+  "source_final_fit_script": "train_shuffled.py",
+  "source_script_sha256": "1294e5af58637868e75e72bbf96f171d10872b3abd2caebe01b07df269d264a4",
+  "seed": 20261001,
+  "feature_dimension": 128,
+  "training_sequences": 123,
+  "target_count_distribution": {
+    "0": 31,
+    "1": 90,
+    "2": 2
+  },
+  "full_fit_tuning_partition": "Five shuffled binary-presence-stratified folds; these are tuning folds for the final full-data historical MLP, not the later benchmark folds.",
+  "source_final_parameters": {
+    "regressor__model__alpha": 1,
+    "regressor__model__hidden_layer_sizes": [
+      16
+    ]
+  },
+  "source_feature_sha256": "f49c7507a2d9b95aa3ba9b41d18b2fa4449a18bac4437d2e35382882cba9ca99",
+  "model_specific_training_entry": "train_historical_mlp.py",
+  "portable_training_entry_scope": "Historical MLP-specific full-fit only; previous seven-model selection is not rerun.",
+  "packaging_reran_training": false,
+  "dataset_source": "123 local DNA sequence labels derived from 546 spatially deduplicated docking representatives; local threshold S=-E_Vina >=8.0 kcal/mol.",
+  "source_model_sha256": "7f84908119a43d0083772759f842c72ce69a77ede80f6602e879d0a5e47c57ae"
+}

@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "run_version": "submission_unified_20261004",
+  "scope": "cross_module_software_demo",
+  "entries": [
+    {
+      "entry": "design.py",
+      "exit_code": 0,
+      "elapsed_seconds": 3.564072
+    },
+    {
+      "entry": "src/virtual_screening/demo.py",
+      "exit_code": 0,
+      "elapsed_seconds": 1.810275
+    },
+    {
+      "entry": "transport.py",
+      "exit_code": 0,
+      "elapsed_seconds": 11.6914
+    }
+  ],
+  "candidate_count": 84,
+  "python": "3.12.14",
+  "operating_system": "Linux",
+  "architecture": "x86_64",
+  "packages": {
+    "numpy": "2.5.2",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.0",
+    "joblib": "1.6.0",
+    "torch": "2.11.0+cu128",
+    "transformers": "4.36.2",
+    "tabpfn": "9.0.0"
+  },
+  "hostname_recorded": false,
+  "account_recorded": false,
+  "local_paths_recorded": false
+}

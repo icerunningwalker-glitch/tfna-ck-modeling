@@ -1,0 +1,11 @@
+# Core numerical/training dependencies. Original fitted snapshots use sklearn 1.9.0.
+numpy>=2.0
+scipy>=1.13
+scikit-learn==1.9.0
+joblib>=1.4
+threadpoolctl>=3.5
+# Plotting only.
+matplotlib>=3.9
+pandas>=2.2
+# Optional full seven-model retraining: install compatible torch/tabpfn separately
+# and supply a licensed local TabPFN V2 checkpoint. No model weights are bundled.

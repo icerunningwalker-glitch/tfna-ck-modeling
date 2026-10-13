@@ -1,0 +1,1391 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "hash config/result_schema.json",
+      "passed": true
+    },
+    {
+      "check": "hash config/submission.json",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/benchmark/hyena_features.npz",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/benchmark/outer_assignments.csv",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/benchmark/package_input_hashes.json",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/benchmark/training_group_CV_assignments.csv",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/benchmark/uniform_single_seed_labels.csv",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/all_84_constructs.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/Opt1.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/Opt2.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/Opt3.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/P1_01.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/P1_02.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/P1_03.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/P1_04.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/P1_05.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/P1_06.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/P1_07.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/P1_08.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/P1_09.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/P1_10.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/P1_11.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/P1_12.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/P1_13.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/P1_14.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/P1_15.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/P1_16.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/P1_17.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/P1_18.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/P1_19.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/P1_20.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/P2_01.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/P2_02.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/P2_03.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/P2_04.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/P2_05.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/P2_06.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/P2_07.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/P2_08.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/P2_09.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/P2_10.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/P2_11.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/P2_12.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/P2_13.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/P2_14.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/P2_15.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/P2_16.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/P2_17.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/P2_18.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/P2_19.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/P2_20.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/P3_01.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/P3_02.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/P3_03.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/P3_04.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/P3_05.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/P3_06.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/P3_07.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/P3_08.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/P3_09.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/P3_10.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/P3_11.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/P3_12.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/P3_13.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/P3_14.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/P3_15.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/P3_16.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/P3_17.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/P3_18.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/P3_19.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/P3_20.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/P4_01.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/P4_02.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/P4_03.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/P4_04.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/P4_05.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/P4_06.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/P4_07.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/P4_08.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/P4_09.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/P4_10.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/P4_11.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/P4_12.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/P4_13.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/P4_14.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/P4_15.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/P4_16.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/P4_17.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/P4_18.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/P4_19.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/P4_20.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/candidates_84/WT.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/four_constructs/Opt1.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/four_constructs/Opt2.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/four_constructs/Opt3.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/four_constructs/WT.fasta",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/historical_candidate_pool.csv",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/historical_training_features.npz",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/historical_tuning_fold_assignments.csv",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/local_feature_cache.npz",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/previous_pool_sequence_hashes.txt",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/reference.json",
+      "passed": true
+    },
+    {
+      "check": "hash data/ai_optimization/design/sequence_count_labels.csv",
+      "passed": true
+    },
+    {
+      "check": "hash data/DATA_PROVENANCE.md",
+      "passed": true
+    },
+    {
+      "check": "hash data/transport/Derived_Transport_Parameters.csv",
+      "passed": true
+    },
+    {
+      "check": "hash data/transport/fit_summary.json",
+      "passed": true
+    },
+    {
+      "check": "hash data/transport/Parameter_Table.csv",
+      "passed": true
+    },
+    {
+      "check": "hash data/transport/processed/depth_records.csv",
+      "passed": true
+    },
+    {
+      "check": "hash data/transport/processed/depth_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "hash data/transport/processed/fibroblast_records.csv",
+      "passed": true
+    },
+    {
+      "check": "hash data/transport/processed/fibroblast_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "hash data/transport/processed/integrity_records.csv",
+      "passed": true
+    },
+    {
+      "check": "hash data/transport/processed/integrity_summary.json",
+      "passed": true
+    },
+    {
+      "check": "hash data/transport/processed/localization_horizontal_scan.csv",
+      "passed": true
+    },
+    {
+      "check": "hash data/transport/processed/localization_records.csv",
+      "passed": true
+    },
+    {
+      "check": "hash data/transport/processed/localization_sample_means.csv",
+      "passed": true
+    },
+    {
+      "check": "hash data/transport/processed/localization_summary.json",
+      "passed": true
+    },
+    {
+      "check": "hash data/transport/processed/TH21_DLS_distribution.csv",
+      "passed": true
+    },
+    {
+      "check": "hash data/transport/reference_inputs.json",
+      "passed": true
+    },
+    {
+      "check": "hash data/transport/Team_Design_Input.json",
+      "passed": true
+    },
+    {
+      "check": "hash data/virtual_screening/DATA_SOURCES_TEMPLATE.csv",
+      "passed": true
+    },
+    {
+      "check": "hash data/virtual_screening/examples/ligand_manifest_template.csv",
+      "passed": true
+    },
+    {
+      "check": "hash data/virtual_screening/synthetic_inputs/ligands.csv",
+      "passed": true
+    },
+    {
+      "check": "hash data/virtual_screening/synthetic_inputs/SYN001.pdbqt",
+      "passed": true
+    },
+    {
+      "check": "hash data/virtual_screening/synthetic_inputs/SYN002.pdbqt",
+      "passed": true
+    },
+    {
+      "check": "hash data/virtual_screening/synthetic_inputs/toy_receptor.pdbqt",
+      "passed": true
+    },
+    {
+      "check": "hash demo.py",
+      "passed": true
+    },
+    {
+      "check": "hash design.py",
+      "passed": true
+    },
+    {
+      "check": "hash licenses/BSD-3-Clause-reference.txt",
+      "passed": true
+    },
+    {
+      "check": "hash logs/ai_optimization/benchmark/analysis_plan.json",
+      "passed": true
+    },
+    {
+      "check": "hash logs/ai_optimization/benchmark/environment_verification.json",
+      "passed": true
+    },
+    {
+      "check": "hash logs/ai_optimization/benchmark/MODEL_PRIVACY_CHECK.json",
+      "passed": true
+    },
+    {
+      "check": "hash logs/ai_optimization/benchmark/MODEL_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "check": "hash logs/ai_optimization/benchmark/PACKAGING_CHECKS.json",
+      "passed": true
+    },
+    {
+      "check": "hash logs/ai_optimization/benchmark/relocated_saved_CV_validation.json",
+      "passed": true
+    },
+    {
+      "check": "hash logs/ai_optimization/benchmark/relocated_snapshot_predictions_validation.json",
+      "passed": true
+    },
+    {
+      "check": "hash logs/ai_optimization/benchmark/relocated_snapshot_predictions_validation_linux.json",
+      "passed": true
+    },
+    {
+      "check": "hash logs/ai_optimization/benchmark/report.json",
+      "passed": true
+    },
+    {
+      "check": "hash logs/ai_optimization/benchmark/training_CV_candidate_losses.csv",
+      "passed": true
+    },
+    {
+      "check": "hash logs/ai_optimization/benchmark/training_only_parameters.json",
+      "passed": true
+    },
+    {
+      "check": "hash logs/ai_optimization/benchmark/VALIDATION.json",
+      "passed": true
+    },
+    {
+      "check": "hash logs/ai_optimization/benchmark/warnings.json",
+      "passed": true
+    },
+    {
+      "check": "hash logs/ai_optimization/design/historical_training_protocol.json",
+      "passed": true
+    },
+    {
+      "check": "hash logs/ai_optimization/design/previous_validation/cached_replay.json",
+      "passed": true
+    },
+    {
+      "check": "hash logs/ai_optimization/design/previous_validation/cli_replay.json",
+      "passed": true
+    },
+    {
+      "check": "hash logs/ai_optimization/design/previous_validation/fresh_opt3_replay.json",
+      "passed": true
+    },
+    {
+      "check": "hash logs/ai_optimization/previous_package_validation/package_validation.json",
+      "passed": true
+    },
+    {
+      "check": "hash logs/ai_optimization/structured_relocation_validation.json",
+      "passed": true
+    },
+    {
+      "check": "hash logs/notebook_execution.json",
+      "passed": true
+    },
+    {
+      "check": "hash logs/privacy_validation.json",
+      "passed": true
+    },
+    {
+      "check": "hash logs/root_full_demo.json",
+      "passed": true
+    },
+    {
+      "check": "hash logs/root_inference.json",
+      "passed": true
+    },
+    {
+      "check": "hash logs/root_verification.json",
+      "passed": true
+    },
+    {
+      "check": "hash logs/submission_validation.json",
+      "passed": true
+    },
+    {
+      "check": "hash logs/transport/Data_Sources.csv",
+      "passed": true
+    },
+    {
+      "check": "hash logs/transport/MERGE_RECORD.md",
+      "passed": true
+    },
+    {
+      "check": "hash logs/transport/provenance_and_run.json",
+      "passed": true
+    },
+    {
+      "check": "hash logs/transport/run_elapsed_seconds.txt",
+      "passed": true
+    },
+    {
+      "check": "hash logs/transport/run_stdout.txt",
+      "passed": true
+    },
+    {
+      "check": "hash logs/transport/validation.json",
+      "passed": true
+    },
+    {
+      "check": "hash logs/virtual_screening/demo.stderr.txt",
+      "passed": true
+    },
+    {
+      "check": "hash logs/virtual_screening/demo.stdout.txt",
+      "passed": true
+    },
+    {
+      "check": "hash logs/virtual_screening/LICENSE_STATUS.txt",
+      "passed": true
+    },
+    {
+      "check": "hash logs/virtual_screening/self_test.stderr.txt",
+      "passed": true
+    },
+    {
+      "check": "hash logs/virtual_screening/self_test.stdout.txt",
+      "passed": true
+    },
+    {
+      "check": "hash logs/virtual_screening/SOURCE_PROVENANCE.json",
+      "passed": true
+    },
+    {
+      "check": "hash logs/virtual_screening/synthetic_ranking_summary.json",
+      "passed": true
+    },
+    {
+      "check": "hash logs/virtual_screening/UNIFICATION_SOURCE_MAP.json",
+      "passed": true
+    },
+    {
+      "check": "hash logs/virtual_screening/VALIDATION.json",
+      "passed": true
+    },
+    {
+      "check": "hash models/ai_optimization/benchmark/extratrees_fold1.joblib",
+      "passed": true
+    },
+    {
+      "check": "hash models/ai_optimization/benchmark/extratrees_fold2.joblib",
+      "passed": true
+    },
+    {
+      "check": "hash models/ai_optimization/benchmark/extratrees_fold3.joblib",
+      "passed": true
+    },
+    {
+      "check": "hash models/ai_optimization/benchmark/extratrees_fold4.joblib",
+      "passed": true
+    },
+    {
+      "check": "hash models/ai_optimization/benchmark/extratrees_fold5.joblib",
+      "passed": true
+    },
+    {
+      "check": "hash models/ai_optimization/benchmark/gpr_fold1.joblib",
+      "passed": true
+    },
+    {
+      "check": "hash models/ai_optimization/benchmark/gpr_fold2.joblib",
+      "passed": true
+    },
+    {
+      "check": "hash models/ai_optimization/benchmark/gpr_fold3.joblib",
+      "passed": true
+    },
+    {
+      "check": "hash models/ai_optimization/benchmark/gpr_fold4.joblib",
+      "passed": true
+    },
+    {
+      "check": "hash models/ai_optimization/benchmark/gpr_fold5.joblib",
+      "passed": true
+    },
+    {
+      "check": "hash models/ai_optimization/benchmark/mlp_fold1.joblib",
+      "passed": true
+    },
+    {
+      "check": "hash models/ai_optimization/benchmark/mlp_fold2.joblib",
+      "passed": true
+    },
+    {
+      "check": "hash models/ai_optimization/benchmark/mlp_fold3.joblib",
+      "passed": true
+    },
+    {
+      "check": "hash models/ai_optimization/benchmark/mlp_fold4.joblib",
+      "passed": true
+    },
+    {
+      "check": "hash models/ai_optimization/benchmark/mlp_fold5.joblib",
+      "passed": true
+    },
+    {
+      "check": "hash models/ai_optimization/benchmark/one_hot_ridge_baseline_fold1.joblib",
+      "passed": true
+    },
+    {
+      "check": "hash models/ai_optimization/benchmark/one_hot_ridge_baseline_fold2.joblib",
+      "passed": true
+    },
+    {
+      "check": "hash models/ai_optimization/benchmark/one_hot_ridge_baseline_fold3.joblib",
+      "passed": true
+    },
+    {
+      "check": "hash models/ai_optimization/benchmark/one_hot_ridge_baseline_fold4.joblib",
+      "passed": true
+    },
+    {
+      "check": "hash models/ai_optimization/benchmark/one_hot_ridge_baseline_fold5.joblib",
+      "passed": true
+    },
+    {
+      "check": "hash models/ai_optimization/benchmark/random_forest_fold1.joblib",
+      "passed": true
+    },
+    {
+      "check": "hash models/ai_optimization/benchmark/random_forest_fold2.joblib",
+      "passed": true
+    },
+    {
+      "check": "hash models/ai_optimization/benchmark/random_forest_fold3.joblib",
+      "passed": true
+    },
+    {
+      "check": "hash models/ai_optimization/benchmark/random_forest_fold4.joblib",
+      "passed": true
+    },
+    {
+      "check": "hash models/ai_optimization/benchmark/random_forest_fold5.joblib",
+      "passed": true
+    },
+    {
+      "check": "hash models/ai_optimization/benchmark/ridge_fold1.joblib",
+      "passed": true
+    },
+    {
+      "check": "hash models/ai_optimization/benchmark/ridge_fold2.joblib",
+      "passed": true
+    },
+    {
+      "check": "hash models/ai_optimization/benchmark/ridge_fold3.joblib",
+      "passed": true
+    },
+    {
+      "check": "hash models/ai_optimization/benchmark/ridge_fold4.joblib",
+      "passed": true
+    },
+    {
+      "check": "hash models/ai_optimization/benchmark/ridge_fold5.joblib",
+      "passed": true
+    },
+    {
+      "check": "hash models/ai_optimization/benchmark/svr_fold1.joblib",
+      "passed": true
+    },
+    {
+      "check": "hash models/ai_optimization/benchmark/svr_fold2.joblib",
+      "passed": true
+    },
+    {
+      "check": "hash models/ai_optimization/benchmark/svr_fold3.joblib",
+      "passed": true
+    },
+    {
+      "check": "hash models/ai_optimization/benchmark/svr_fold4.joblib",
+      "passed": true
+    },
+    {
+      "check": "hash models/ai_optimization/benchmark/svr_fold5.joblib",
+      "passed": true
+    },
+    {
+      "check": "hash models/ai_optimization/benchmark/tabpfn_training_context_fold1.npz",
+      "passed": true
+    },
+    {
+      "check": "hash models/ai_optimization/benchmark/tabpfn_training_context_fold2.npz",
+      "passed": true
+    },
+    {
+      "check": "hash models/ai_optimization/benchmark/tabpfn_training_context_fold3.npz",
+      "passed": true
+    },
+    {
+      "check": "hash models/ai_optimization/benchmark/tabpfn_training_context_fold4.npz",
+      "passed": true
+    },
+    {
+      "check": "hash models/ai_optimization/benchmark/tabpfn_training_context_fold5.npz",
+      "passed": true
+    },
+    {
+      "check": "hash models/ai_optimization/design/checkpoint/config.json",
+      "passed": true
+    },
+    {
+      "check": "hash models/ai_optimization/design/checkpoint/configuration_hyena.py",
+      "passed": true
+    },
+    {
+      "check": "hash models/ai_optimization/design/checkpoint/model.safetensors",
+      "passed": true
+    },
+    {
+      "check": "hash models/ai_optimization/design/checkpoint/modeling_hyena.py",
+      "passed": true
+    },
+    {
+      "check": "hash models/ai_optimization/design/checkpoint/source_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "hash models/ai_optimization/design/checkpoint/special_tokens_map.json",
+      "passed": true
+    },
+    {
+      "check": "hash models/ai_optimization/design/checkpoint/tokenization_hyena.py",
+      "passed": true
+    },
+    {
+      "check": "hash models/ai_optimization/design/checkpoint/tokenizer_config.json",
+      "passed": true
+    },
+    {
+      "check": "hash models/ai_optimization/design/historical_hyena_count.joblib",
+      "passed": true
+    },
+    {
+      "check": "hash models/ai_optimization/design/historical_mlp_metadata.json",
+      "passed": true
+    },
+    {
+      "check": "hash models/ai_optimization/design/historical_mlp_weights.npz",
+      "passed": true
+    },
+    {
+      "check": "hash models/MODEL_CARD.md",
+      "passed": true
+    },
+    {
+      "check": "hash models/transport/MODEL_CARD.md",
+      "passed": true
+    },
+    {
+      "check": "hash models/virtual_screening/MODEL_CARD.md",
+      "passed": true
+    },
+    {
+      "check": "hash notebooks/reproduce.ipynb",
+      "passed": true
+    },
+    {
+      "check": "hash predict.py",
+      "passed": true
+    },
+    {
+      "check": "hash README.md",
+      "passed": true
+    },
+    {
+      "check": "hash requirements-full.txt",
+      "passed": true
+    },
+    {
+      "check": "hash requirements-inference.txt",
+      "passed": true
+    },
+    {
+      "check": "hash requirements.txt",
+      "passed": true
+    },
+    {
+      "check": "hash results/ai_optimization/benchmark/fit_gap_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "hash results/ai_optimization/benchmark/fold_metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "hash results/ai_optimization/benchmark/metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "hash results/ai_optimization/benchmark/OOF_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "hash results/ai_optimization/benchmark/outer_test_predictions.csv",
+      "passed": true
+    },
+    {
+      "check": "hash results/ai_optimization/benchmark/predictions.csv",
+      "passed": true
+    },
+    {
+      "check": "hash results/ai_optimization/benchmark/training_fit_predictions.csv",
+      "passed": true
+    },
+    {
+      "check": "hash results/ai_optimization/design/historical_scored_pool.csv",
+      "passed": true
+    },
+    {
+      "check": "hash results/ai_optimization/design/historical_scores_84_ranked.csv",
+      "passed": true
+    },
+    {
+      "check": "hash results/ai_optimization/design/historical_selected_84.csv",
+      "passed": true
+    },
+    {
+      "check": "hash results/ai_optimization/submission_preview/candidate_scores.csv",
+      "passed": true
+    },
+    {
+      "check": "hash results/ai_optimization/submission_preview/results.csv",
+      "passed": true
+    },
+    {
+      "check": "hash results/ai_optimization/submission_preview/run.json",
+      "passed": true
+    },
+    {
+      "check": "hash results/ai_optimization/validation_runs/design/pool_scores.csv",
+      "passed": true
+    },
+    {
+      "check": "hash results/ai_optimization/validation_runs/design/results.csv",
+      "passed": true
+    },
+    {
+      "check": "hash results/ai_optimization/validation_runs/design/selected_candidates.csv",
+      "passed": true
+    },
+    {
+      "check": "hash results/ai_optimization/validation_runs/predict/candidate_scores.csv",
+      "passed": true
+    },
+    {
+      "check": "hash results/ai_optimization/validation_runs/predict/results.csv",
+      "passed": true
+    },
+    {
+      "check": "hash results/ai_optimization/validation_runs/predict/run.json",
+      "passed": true
+    },
+    {
+      "check": "hash results/result_schema.json",
+      "passed": true
+    },
+    {
+      "check": "hash results/results.csv",
+      "passed": true
+    },
+    {
+      "check": "hash results/transport/depth_profiles.csv",
+      "passed": true
+    },
+    {
+      "check": "hash results/transport/depth_time_heatmap.csv",
+      "passed": true
+    },
+    {
+      "check": "hash results/transport/images/Fig02_Model_and_Window.png",
+      "passed": true
+    },
+    {
+      "check": "hash results/transport/images/Fig02_Model_and_Window.svg",
+      "passed": true
+    },
+    {
+      "check": "hash results/transport/images/Fig03_Application_Exposure.png",
+      "passed": true
+    },
+    {
+      "check": "hash results/transport/images/Fig03_Application_Exposure.svg",
+      "passed": true
+    },
+    {
+      "check": "hash results/transport/images/Fig04_Depth_and_Delayed_Exposure_Heatmap.png",
+      "passed": true
+    },
+    {
+      "check": "hash results/transport/images/Fig04_Depth_and_Delayed_Exposure_Heatmap.svg",
+      "passed": true
+    },
+    {
+      "check": "hash results/transport/images/Fig05_Uptake_and_Contact.png",
+      "passed": true
+    },
+    {
+      "check": "hash results/transport/images/Fig05_Uptake_and_Contact.svg",
+      "passed": true
+    },
+    {
+      "check": "hash results/transport/layer_retention.csv",
+      "passed": true
+    },
+    {
+      "check": "hash results/transport/summary.json",
+      "passed": true
+    },
+    {
+      "check": "hash results/transport/timeseries.csv",
+      "passed": true
+    },
+    {
+      "check": "hash results/transport/uptake_sensitivity.csv",
+      "passed": true
+    },
+    {
+      "check": "hash results/virtual_screening/synthetic_example/structures/SYN001.pdb",
+      "passed": true
+    },
+    {
+      "check": "hash results/virtual_screening/synthetic_example/structures/SYN002.pdb",
+      "passed": true
+    },
+    {
+      "check": "hash results/virtual_screening/synthetic_example/SYNTHETIC_EXAMPLE.txt",
+      "passed": true
+    },
+    {
+      "check": "hash results/virtual_screening/synthetic_example/synthetic_results.csv",
+      "passed": true
+    },
+    {
+      "check": "hash screen.py",
+      "passed": true
+    },
+    {
+      "check": "hash SOURCE_MAP.json",
+      "passed": true
+    },
+    {
+      "check": "hash src/__init__.py",
+      "passed": true
+    },
+    {
+      "check": "hash src/ai_optimization/benchmark/evaluate_models.py",
+      "passed": true
+    },
+    {
+      "check": "hash src/ai_optimization/benchmark/layout.py",
+      "passed": true
+    },
+    {
+      "check": "hash src/ai_optimization/benchmark/plot_all7.py",
+      "passed": true
+    },
+    {
+      "check": "hash src/ai_optimization/benchmark/README.md",
+      "passed": true
+    },
+    {
+      "check": "hash src/ai_optimization/benchmark/requirements.txt",
+      "passed": true
+    },
+    {
+      "check": "hash src/ai_optimization/benchmark/train_all7.py",
+      "passed": true
+    },
+    {
+      "check": "hash src/ai_optimization/benchmark/verify_all7.py",
+      "passed": true
+    },
+    {
+      "check": "hash src/ai_optimization/DATA_SOURCES.md",
+      "passed": true
+    },
+    {
+      "check": "hash src/ai_optimization/design/common.py",
+      "passed": true
+    },
+    {
+      "check": "hash src/ai_optimization/design/generate_candidates.py",
+      "passed": true
+    },
+    {
+      "check": "hash src/ai_optimization/design/hyena_features.py",
+      "passed": true
+    },
+    {
+      "check": "hash src/ai_optimization/design/mutation_design.py",
+      "passed": true
+    },
+    {
+      "check": "hash src/ai_optimization/design/predict.py",
+      "passed": true
+    },
+    {
+      "check": "hash src/ai_optimization/design/README.md",
+      "passed": true
+    },
+    {
+      "check": "hash src/ai_optimization/design/score_candidates.py",
+      "passed": true
+    },
+    {
+      "check": "hash src/ai_optimization/design/select_candidates.py",
+      "passed": true
+    },
+    {
+      "check": "hash src/ai_optimization/design/smoke_check.py",
+      "passed": true
+    },
+    {
+      "check": "hash src/ai_optimization/design/train_historical_mlp.py",
+      "passed": true
+    },
+    {
+      "check": "hash src/ai_optimization/design.py",
+      "passed": true
+    },
+    {
+      "check": "hash src/ai_optimization/layout.py",
+      "passed": true
+    },
+    {
+      "check": "hash src/ai_optimization/manifest.json",
+      "passed": true
+    },
+    {
+      "check": "hash src/ai_optimization/MODEL_CARD.md",
+      "passed": true
+    },
+    {
+      "check": "hash src/ai_optimization/predict.py",
+      "passed": true
+    },
+    {
+      "check": "hash src/ai_optimization/README.md",
+      "passed": true
+    },
+    {
+      "check": "hash src/ai_optimization/requirements-full.txt",
+      "passed": true
+    },
+    {
+      "check": "hash src/ai_optimization/requirements.txt",
+      "passed": true
+    },
+    {
+      "check": "hash src/ai_optimization/SUBMISSION_CHECKLIST.md",
+      "passed": true
+    },
+    {
+      "check": "hash src/ai_optimization/THIRD_PARTY_NOTICES.md",
+      "passed": true
+    },
+    {
+      "check": "hash src/ai_optimization/train.py",
+      "passed": true
+    },
+    {
+      "check": "hash src/ai_optimization/verify_package.py",
+      "passed": true
+    },
+    {
+      "check": "hash src/submission_runtime.py",
+      "passed": true
+    },
+    {
+      "check": "hash src/transport/figure_style.py",
+      "passed": true
+    },
+    {
+      "check": "hash src/transport/model.py",
+      "passed": true
+    },
+    {
+      "check": "hash src/transport/physics.py",
+      "passed": true
+    },
+    {
+      "check": "hash src/transport/plot_depth_heatmap.py",
+      "passed": true
+    },
+    {
+      "check": "hash src/transport/README.md",
+      "passed": true
+    },
+    {
+      "check": "hash src/transport/requirements.txt",
+      "passed": true
+    },
+    {
+      "check": "hash src/transport/run_model.py",
+      "passed": true
+    },
+    {
+      "check": "hash src/transport/verify_results.py",
+      "passed": true
+    },
+    {
+      "check": "hash src/virtual_screening/demo.py",
+      "passed": true
+    },
+    {
+      "check": "hash src/virtual_screening/predict.py",
+      "passed": true
+    },
+    {
+      "check": "hash src/virtual_screening/README.md",
+      "passed": true
+    },
+    {
+      "check": "hash src/virtual_screening/screen.py",
+      "passed": true
+    },
+    {
+      "check": "hash src/virtual_screening/self_test.py",
+      "passed": true
+    },
+    {
+      "check": "hash src/virtual_screening/src/bootstrap_screen.py",
+      "passed": true
+    },
+    {
+      "check": "hash src/virtual_screening/src/chemistry_geometry_checks.py",
+      "passed": true
+    },
+    {
+      "check": "hash src/virtual_screening/src/execute_pipeline.py",
+      "passed": true
+    },
+    {
+      "check": "hash src/virtual_screening/src/finalize_report.py",
+      "passed": true
+    },
+    {
+      "check": "hash src/virtual_screening/src/prepare_library.py",
+      "passed": true
+    },
+    {
+      "check": "hash src/virtual_screening/src/rigid_conformer_fallback.py",
+      "passed": true
+    },
+    {
+      "check": "hash src/virtual_screening/src/run_screen.py",
+      "passed": true
+    },
+    {
+      "check": "hash src/virtual_screening/src/test_chemistry_geometry_checks.py",
+      "passed": true
+    },
+    {
+      "check": "hash src/virtual_screening/src/test_finalize_report.py",
+      "passed": true
+    },
+    {
+      "check": "hash src/virtual_screening/src/test_portable.py",
+      "passed": true
+    },
+    {
+      "check": "hash src/virtual_screening/src/test_preparation_guards.py",
+      "passed": true
+    },
+    {
+      "check": "hash src/virtual_screening/src/test_rigid_conformer_fallback.py",
+      "passed": true
+    },
+    {
+      "check": "hash src/virtual_screening/src/test_run_screen.py",
+      "passed": true
+    },
+    {
+      "check": "hash SUBMISSION_CHECKLIST.md",
+      "passed": true
+    },
+    {
+      "check": "hash THIRD_PARTY_NOTICES.md",
+      "passed": true
+    },
+    {
+      "check": "hash train.py",
+      "passed": true
+    },
+    {
+      "check": "hash transport.py",
+      "passed": true
+    },
+    {
+      "check": "hash verify_submission.py",
+      "passed": true
+    },
+    {
+      "check": "Python source parses",
+      "passed": true
+    },
+    {
+      "check": "84 unique standard candidate rows",
+      "passed": true
+    },
+    {
+      "check": "Submission columns match schema",
+      "passed": true
+    },
+    {
+      "check": "No synthetic row in scientific results",
+      "passed": true
+    },
+    {
+      "check": "Four 63-nt DNA strands per AI candidate",
+      "passed": true
+    },
+    {
+      "check": "Paired versus nucleotide changes",
+      "passed": true
+    },
+    {
+      "check": "No invented sequence-only structures",
+      "passed": true
+    },
+    {
+      "check": "Root inference reproduces final candidate content",
+      "passed": true
+    },
+    {
+      "check": "Synthetic screening rejected by final exporter",
+      "passed": true
+    },
+    {
+      "check": "Saved reference mass conservation",
+      "passed": true
+    },
+    {
+      "check": "Saved reference nonnegative states",
+      "passed": true
+    },
+    {
+      "check": "Saved reference supply stops after removal",
+      "passed": true
+    }
+  ],
+  "actual_inference": true,
+  "model_snapshots_loaded": true,
+  "synthetic_excluded": true,
+  "new_training": false,
+  "new_real_docking": false,
+  "transport_check": "saved physical checks; full fresh simulation is recorded separately"
+}

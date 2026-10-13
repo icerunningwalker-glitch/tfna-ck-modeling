@@ -1,0 +1,19 @@
+{
+  "filename": "results.csv",
+  "encoding": "UTF-8 with BOM",
+  "missing_value": "empty string for not applicable; UNSPECIFIED for unconfirmed track",
+  "candidate_key": "unique module-prefixed identifier",
+  "candidate_id": "original scientific identifier preserved",
+  "track": "official event track, supplied via --track or config/submission.json",
+  "rank": "positive integer; rank only within its own module",
+  "candidate_sequence": "four strands in 1c,2c,3c,4c order separated by semicolons; also provided as separate columns",
+  "prediction_value": "numeric; unit and direction given in adjacent columns",
+  "numeric_precision": "original exported precision, up to 12 significant digits for AI proxy",
+  "ai_metric": "dimensionless six-edge local count sum; higher proxy score ranked first, then candidate_id",
+  "screening_metric": "best Vina energy in kcal/mol; original complete-eight-box rank by hit-box fraction descending, energy ascending, mean energy ascending, ID",
+  "paired_site_substitutions": "one paired change corresponds to two actual nucleotide substitutions",
+  "structure_file": "relative PDB path when available; empty for sequence-only AI export",
+  "evidence_type": "model_prediction or docking_prediction; no synthetic software-test candidate permitted",
+  "cross_module_score_comparison": "not defined; units and meanings differ",
+  "transport": "reported as independent model tables/summary, not attributed to individual Opt candidates"
+}

@@ -1,0 +1,2 @@
+# Lightweight Windows/Linux cached candidate inference only.
+numpy>=2.3.5,<3

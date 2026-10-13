@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "no_training_performed": true,
+  "input_check_entry_executed": true,
+  "saved_prediction_arithmetic_verified": true,
+  "unique_sequences": 123,
+  "OOF_records_verified": 1107,
+  "training_fit_records_verified": 4428,
+  "summary_metric_rows_verified": 18,
+  "fold_metric_rows_verified": 90,
+  "model_snapshots_loaded_without_training": 35,
+  "saved_model_OOF_predictions_reproduced": 861,
+  "model_source_bytes_unchanged": true,
+  "model_object_strings_checked_for_personal_names_and_paths": true,
+  "plotting_executed": ["seven-model ROC and confusion matrices", "MSE", "RMSE"],
+  "plot_exports_checked": ["600 dpi PNG", "SVG", "preview PNG"],
+  "three_plot_previews_visually_inspected": true,
+  "temporary_plot_outputs_removed": true,
+  "TabPFN_checkpoint_not_redistributed": true,
+  "TabPFN_saved_metrics_recomputed": true,
+  "TabPFN_live_checkpoint_inference_executed": false,
+  "original_training_hardware_and_elapsed_time": "not retained; not reconstructed"
+}

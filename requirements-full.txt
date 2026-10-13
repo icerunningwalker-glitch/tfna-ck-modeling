@@ -1,0 +1,8 @@
+-r requirements.txt
+# Fresh frozen-HyenaDNA encoding and optional TabPFN comparison.
+torch==2.11.0
+transformers==4.36.2
+tokenizers==0.15.2
+safetensors==0.8.0
+einops==0.8.2
+tabpfn==9.0.0

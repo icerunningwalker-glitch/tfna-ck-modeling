@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "existing_pool_constructs_rescored": 1854,
+  "selection_order_and_source_pool_ids_identical": true,
+  "selected_sequence_identity": true,
+  "selected_constructs": 84,
+  "score_max_absolute_error": 0.0,
+  "documented_edit_example_matches_existing_Opt2": true,
+  "all_design_scripts_parse": true,
+  "new_training": false,
+  "new_bulk_candidate_generation": false
+}

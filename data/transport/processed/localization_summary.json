@@ -1,0 +1,10 @@
+{
+  "equal_sample_cellular_mean": 0.23508888761639077,
+  "between_sample_SD": 0.05617876865444937,
+  "n_samples": 4,
+  "n_FOV": 9,
+  "pooled_FOV_mean": 0.2285260239307162,
+  "horizontal_valid_positions": 556,
+  "horizontal_incomplete_positions": 2,
+  "horizontal_Krt14_gt8_signal_fraction": 0.44607209797276187
+}

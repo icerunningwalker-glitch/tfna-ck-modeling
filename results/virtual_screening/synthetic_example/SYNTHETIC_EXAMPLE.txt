@@ -1,0 +1,3 @@
+SYNTHETIC SOFTWARE TEST ONLY. Toy receptor, approximate fixture geometry.
+Default scores are invented deterministic mock values, not biological predictions.
+Real Vina mode is an installation smoke test, not receptor validation.

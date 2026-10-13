@@ -1,0 +1,63 @@
+{
+  "publication_version": "tfna_ck_publication_20261013",
+  "original_archive_preserved": true,
+  "scientific_asset_hashes_unchanged": 246,
+  "parameter_values_unchanged": true,
+  "presentation_fixes": [
+    "Clarified nominal 100 µm boundary and cited 64–99 µm interval",
+    "Team input and tracer-derived diffusion labels corrected in generated figures"
+  ],
+  "standard_candidates": 84,
+  "sequence_values_and_predictions_unchanged": true,
+  "track": "赛道四：递送载体设计",
+  "original_content_license": "MIT",
+  "owner_authorized_original_data": true,
+  "checks": {
+    "historical_pool_replay": {
+      "constructs": 1854,
+      "selected": 84,
+      "max_score_error": 0
+    },
+    "benchmark_arithmetic": {
+      "checks": 292,
+      "models_and_baselines": 9,
+      "OOF_records": 1107,
+      "training_diagnostic_records": 4428
+    },
+    "saved_sklearn_models": {
+      "snapshots": 35,
+      "OOF_records": 861,
+      "max_error": 6.661338147750939e-15,
+      "original_sklearn": "1.9.0",
+      "review_sklearn": "1.7.2"
+    },
+    "reference_transport": {
+      "tables": 5,
+      "max_error": 3.637978807091713e-12,
+      "mass_relative": 5.592941813118596e-16,
+      "min_state": 0,
+      "supply_after_removal": 0
+    },
+    "independent_skills_trial": {
+      "commands": 17,
+      "passed": true,
+      "benchmark_fixture": "software verification only, 15 samples"
+    },
+    "current_review_scope": {
+      "new_scientific_training": false,
+      "new_real_docking": false,
+      "new_MD": false
+    },
+    "cadnano_migration": {
+      "source_commit": "4ff1ef5cd934cc98270dd84009a13a8dd61dc0e0",
+      "design_tests": 15,
+      "v3_tests": 9,
+      "passed": true
+    }
+  },
+  "pending": {
+    "fresh_HyenaDNA_encoding": "Current local review profiles do not contain torch/transformers; pinned checkpoint and full environment declarations supplied.",
+    "TabPFN_checkpoint_inference": "Provider V2 weights acquired separately; preserved arithmetic records reviewed.",
+    "original_training_hardware_and_time": "Not retained in historical source."
+  }
+}

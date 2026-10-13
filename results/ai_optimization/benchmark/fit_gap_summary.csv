@@ -1,0 +1,10 @@
+﻿model,training_fit_weighted_MAE,OOF_MAE,OOF_minus_training_fit_MAE,test_fold_MAE_mean,test_fold_MAE_SD,note
+MLP,0.14829925888912668,0.21040997870552386,0.06211071981639718,0.2108142535118417,0.029525708451693,"Training rows repeat each sequence four times; SD is across five folds, not confidence interval"
+SVR,0.10893854488036728,0.23738921383597522,0.12845066895560794,0.23784676520314932,0.02840197836761667,"Training rows repeat each sequence four times; SD is across five folds, not confidence interval"
+Ridge,0.23141522242103435,0.2634728767557041,0.03205765433466973,0.26349442047650184,0.010430375417538698,"Training rows repeat each sequence four times; SD is across five folds, not confidence interval"
+Random forest,0.17252074747107865,0.2476890576878711,0.07516831021679246,0.24748393463992133,0.03075158289980404,"Training rows repeat each sequence four times; SD is across five folds, not confidence interval"
+ExtraTrees,0.14562746739519047,0.2448311900330833,0.09920372263789282,0.24461141411840434,0.03471178841628003,"Training rows repeat each sequence four times; SD is across five folds, not confidence interval"
+GPR,0.209202647888708,0.2644883951540852,0.05528574726537719,0.2646337584583194,0.014436699400995125,"Training rows repeat each sequence four times; SD is across five folds, not confidence interval"
+TabPFN,0.12094184250487544,0.21461713289826867,0.09367529039339323,0.214644718170166,0.03532697366558859,"Training rows repeat each sequence four times; SD is across five folds, not confidence interval"
+Training-median baseline,0.2682926829268293,0.2682926829268293,0.0,0.268,0.016431676725154998,"Training rows repeat each sequence four times; SD is across five folds, not confidence interval"
+One-hot Ridge baseline,0.16568762313543076,0.22340141836503286,0.0577137952296021,0.22282082921100618,0.03899748863020819,"Training rows repeat each sequence four times; SD is across five folds, not confidence interval"

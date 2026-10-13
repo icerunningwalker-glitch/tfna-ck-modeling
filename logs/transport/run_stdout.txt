@@ -1,0 +1,101 @@
+{
+  "at15": {
+    "time_h": 0.25,
+    "time_min": 15.0,
+    "follicle_ng_cm2": 6504.5890492881645,
+    "additional_input_ng_cm2": 67.81069016633894,
+    "intracellular_ng_cm2": 0.22899135508824583,
+    "uptake_cumulative_ng_cm2": 0.22950541302545685,
+    "fragments_ng_cm2": 43.43225253083965,
+    "outside_ng_cm2": 0.8734989014495349,
+    "max_contact_uM": 0.07231285703030324,
+    "VE_ng_cm2": 5.060575596685042,
+    "VE_total_uM": 0.007606685300452504,
+    "VE_free_uM": 0.06268665751299383,
+    "VE_contact_uM": 0.06268665751299385,
+    "VE_intracellular_ng_cm2": 0.056074055455697436,
+    "VE_uptake_ng_cm2": 0.05620953133073237,
+    "VE_covered_fraction": 0.0,
+    "dermis_ng_cm2": 18.444363137364476,
+    "dermis_total_uM": 0.007393122950683209,
+    "dermis_free_uM": 0.018309529659423524,
+    "dermis_contact_uM": 0.018309529659423524,
+    "dermis_intracellular_ng_cm2": 0.1729172996325483,
+    "dermis_uptake_ng_cm2": 0.1732958816947245,
+    "dermis_covered_fraction": 0.0,
+    "intact_ng_cm2": 6528.093988022214,
+    "DNA_remaining_ng_cm2": 6571.526240553054,
+    "mass_minus_input_ng_cm2": 6504.589049288168
+  },
+  "dose_ug": 6.572399739454506,
+  "retention": [
+    {
+      "time_min": 15,
+      "layer": "follicle",
+      "mass": 6504.5890492881645,
+      "percent": 98.96825067167977
+    },
+    {
+      "time_min": 15,
+      "layer": "VE",
+      "mass": 5.060575596685042,
+      "percent": 0.07699737991142118
+    },
+    {
+      "time_min": 15,
+      "layer": "dermis",
+      "mass": 18.444363137364476,
+      "percent": 0.2806336173778638
+    },
+    {
+      "time_min": 60,
+      "layer": "follicle",
+      "mass": 6181.499377453756,
+      "percent": 94.05239520575486
+    },
+    {
+      "time_min": 60,
+      "layer": "VE",
+      "mass": 10.850929710895043,
+      "percent": 0.16509844411556812
+    },
+    {
+      "time_min": 60,
+      "layer": "dermis",
+      "mass": 56.9879941103914,
+      "percent": 0.8670804632939332
+    },
+    {
+      "time_min": 240,
+      "layer": "follicle",
+      "mass": 5158.846024548339,
+      "percent": 78.49257849578868
+    },
+    {
+      "time_min": 240,
+      "layer": "VE",
+      "mass": 14.936705634545623,
+      "percent": 0.22726410788558235
+    },
+    {
+      "time_min": 240,
+      "layer": "dermis",
+      "mass": 86.31779844248382,
+      "percent": 1.313337621939106
+    }
+  ],
+  "clearance": {
+    "0.1": 45.39440063368493,
+    "0.05": 60.209891963374055
+  },
+  "peaks": {
+    "VE": 0.15502219769103567,
+    "dermis": 0.07138351520301436
+  },
+  "checks": {
+    "mass_relative": 6.991177266398244e-16,
+    "min_state": 0.0,
+    "input_after_removal": 0.0
+  }
+}
+Model run and physical checks passed.

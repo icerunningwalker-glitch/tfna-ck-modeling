@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="594.72pt" height="252.792pt" viewBox="0 0 594.72 252.792" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-13T13:33:04.127079</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.6, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 252.792 
+L 594.72 252.792 
+L 594.72 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 16.686 100.3392 
+L 153.954 100.3392 
+Q 156.744 100.3392 156.744 97.5672 
+L 156.744 44.3448 
+Q 156.744 41.5728 153.954 41.5728 
+L 16.686 41.5728 
+Q 13.896 41.5728 13.896 44.3448 
+L 13.896 97.5672 
+Q 13.896 100.3392 16.686 100.3392 
+z
+" clip-path="url(#p60c39fbd65)" style="fill: #dba997; stroke: #5d5d2a; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 198.036 100.3392 
+L 326.934 100.3392 
+Q 329.724 100.3392 329.724 97.5672 
+L 329.724 44.3448 
+Q 329.724 41.5728 326.934 41.5728 
+L 198.036 41.5728 
+Q 195.246 41.5728 195.246 44.3448 
+L 195.246 97.5672 
+Q 195.246 100.3392 198.036 100.3392 
+z
+" clip-path="url(#p60c39fbd65)" style="fill: #f9a48b; stroke: #5d5d2a; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 371.016 100.3392 
+L 455.274 100.3392 
+Q 458.064 100.3392 458.064 97.5672 
+L 458.064 44.3448 
+Q 458.064 41.5728 455.274 41.5728 
+L 371.016 41.5728 
+Q 368.226 41.5728 368.226 44.3448 
+L 368.226 97.5672 
+Q 368.226 100.3392 371.016 100.3392 
+z
+" clip-path="url(#p60c39fbd65)" style="fill: #c7c3ac; stroke: #5d5d2a; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 499.356 100.3392 
+L 575.244 100.3392 
+Q 578.034 100.3392 578.034 97.5672 
+L 578.034 44.3448 
+Q 578.034 41.5728 575.244 41.5728 
+L 499.356 41.5728 
+Q 496.566 41.5728 496.566 44.3448 
+L 496.566 97.5672 
+Q 496.566 100.3392 499.356 100.3392 
+z
+" clip-path="url(#p60c39fbd65)" style="fill: #5d5d2a; stroke: #5d5d2a; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #222222" transform="translate(35.497266 68.400422)">Full follicular reservoir</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #222222" transform="translate(18.173672 78.478453)">H = capacity during 0–15 min</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #222222" transform="translate(226.416797 68.400422)">Free intact tFNA</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #222222" transform="translate(217.551094 78.478453)">in extracellular fluid</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #222222" transform="translate(386.463516 68.275266)">Cell contact</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #222222" transform="translate(401.815547 78.353297)">C_eff</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #ffffff" transform="translate(510.295781 68.400422)">Intracellular</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #ffffff" transform="translate(526.502813 78.478453)">tFNA</text>
+   </g>
+   <g id="patch_6">
+    <path d="M 161.869259 70.956 
+Q 175.991393 70.956 190.113527 70.956 
+" style="fill: none; stroke: #7e0909; stroke-width: 1.8; stroke-linecap: round"/>
+    <path d="M 165.869259 72.956 
+L 161.869259 70.956 
+L 165.869259 68.956 
+" style="fill: none; stroke: #7e0909; stroke-width: 1.8; stroke-linecap: round"/>
+    <path d="M 186.113527 68.956 
+L 190.113527 70.956 
+L 186.113527 72.956 
+" style="fill: none; stroke: #7e0909; stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle" x="175.716" y="30.4848" transform="rotate(-0 175.716 30.4848)">wall crossing</text>
+   </g>
+   <g id="patch_7">
+    <path d="M 332.836798 70.956 
+Q 348.971393 70.956 363.093527 70.956 
+" style="fill: none; stroke: #7e0909; stroke-width: 1.8; stroke-linecap: round"/>
+    <path d="M 359.093527 68.956 
+L 363.093527 70.956 
+L 359.093527 72.956 
+" style="fill: none; stroke: #7e0909; stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle" x="347.58" y="30.4848" transform="rotate(-0 347.58 30.4848)">diffusive encounter</text>
+   </g>
+   <g id="patch_8">
+    <path d="M 461.176798 70.956 
+Q 477.311393 70.956 491.433527 70.956 
+" style="fill: none; stroke: #7e0909; stroke-width: 1.8; stroke-linecap: round"/>
+    <path d="M 487.433527 68.956 
+L 491.433527 70.956 
+L 487.433527 72.956 
+" style="fill: none; stroke: #7e0909; stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle" x="478.71" y="30.4848" transform="rotate(-0 478.71 30.4848)">uptake</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #7e0909" transform="translate(18.36 135.998012)">0–15 min: ideal replenishment</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #7e0909" transform="translate(18.36 150.2352)">After 15 min: no external input</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #5d5d2a" transform="translate(202.5 148.462187)">Tracer-based layer diffusion</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #5d5d2a" transform="translate(202.5 159.66)">accounts for tissue resistance</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start" x="18.36" y="226.188" transform="rotate(-0 18.36 226.188)">Initial tissue and cells are empty. Existing skin reservoirs continue to evolve after the mask is removed.</text>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(334.088438 177.28005)">Team CK limit: 1 µmol/L</text>
+    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(321.669688 188.4888)">tFNA equivalent: 0.5 µmol/L</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p60c39fbd65">
+   <rect x="7.2" y="7.2" width="580.32" height="238.392"/>
+  </clipPath>
+ </defs>
+</svg>

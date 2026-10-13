@@ -1,0 +1,13 @@
+{
+  "project_version": "tfna_ck_publication_20261013",
+  "track": "赛道四：递送载体设计",
+  "default_candidate_source": "ai",
+  "candidate_count": 84,
+  "historical_candidate_model": "historical_frozen_MLP_16_hidden_20261001",
+  "candidate_generation_seed": 20261002,
+  "historical_training_seed": 20261001,
+  "current_benchmark_seed": 20261003,
+  "docking_seed": 104729,
+  "notes": "Track 4 confirmed by the project owner; original project data publicly released with owner authorization.",
+  "publication_license": "MIT"
+}

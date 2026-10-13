@@ -1,0 +1,15 @@
+# Observed historical packaging verification environment; Python 3.12.14, Linux x86-64.
+# Full training / fresh offline encoding. CUDA is optional; tested encoding uses CPU.
+numpy==2.5.2
+scipy==1.18.1
+scikit-learn==1.9.0
+joblib==1.6.0
+torch==2.11.0
+transformers==4.36.2
+tokenizers==0.15.2
+safetensors==0.8.0
+einops==0.8.2
+threadpoolctl==3.6.0
+tabpfn==9.0.0
+matplotlib==3.11.2
+pandas==3.0.6

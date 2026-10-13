@@ -1,0 +1,202 @@
+{
+  "source_package": "final_data_and_src",
+  "preserved_files": [
+    {
+      "source_file": "data/Data_Sources.csv",
+      "destination_file": "logs/transport/Data_Sources.csv",
+      "sha256": "78eef31de72c236a5b1eb718d2df9bb8384e0e903965c690c3975f1e6e2f4841",
+      "unchanged": true
+    },
+    {
+      "source_file": "data/Derived_Transport_Parameters.csv",
+      "destination_file": "data/transport/Derived_Transport_Parameters.csv",
+      "sha256": "3c3c4e710d46e6f1f4fee8bde948ccf8439e08c04695ac9c8bcc7ae761cd2f37",
+      "unchanged": true
+    },
+    {
+      "source_file": "data/fit_summary.json",
+      "destination_file": "data/transport/fit_summary.json",
+      "sha256": "8d9e38447a0069a54075afc5fdaa20d86ab7dca8e515ecd85af377cffe520a92",
+      "unchanged": true
+    },
+    {
+      "source_file": "data/Parameter_Table.csv",
+      "destination_file": "data/transport/Parameter_Table.csv",
+      "sha256": "3225ed856f02d46d3072d75b61102945b0fd5929beb48d5a1bad955338373f4e",
+      "unchanged": true
+    },
+    {
+      "source_file": "data/processed/depth_records.csv",
+      "destination_file": "data/transport/processed/depth_records.csv",
+      "sha256": "c682502c5e4a4fb38bb84e428eff042111736174cc73d3c5782404cd4f3bccaa",
+      "unchanged": true
+    },
+    {
+      "source_file": "data/processed/depth_summary.csv",
+      "destination_file": "data/transport/processed/depth_summary.csv",
+      "sha256": "4b9da9e8cd1be198465dbd48a6593d15f6dbd9387c152f1bfc7ff246b996dd1b",
+      "unchanged": true
+    },
+    {
+      "source_file": "data/processed/fibroblast_records.csv",
+      "destination_file": "data/transport/processed/fibroblast_records.csv",
+      "sha256": "28c6476713e45d5f54fdaff3307796d42e022cb3f9a6af60074365507201a093",
+      "unchanged": true
+    },
+    {
+      "source_file": "data/processed/fibroblast_summary.csv",
+      "destination_file": "data/transport/processed/fibroblast_summary.csv",
+      "sha256": "e98df9a87ca3dc39d861144db9ae43ab9f3bf13843c06eb820f23095b5e063ae",
+      "unchanged": true
+    },
+    {
+      "source_file": "data/processed/integrity_records.csv",
+      "destination_file": "data/transport/processed/integrity_records.csv",
+      "sha256": "261378bc7efa2b1c22522f9f4a2b9d23a38006cb5862f347a88abd99591a93f2",
+      "unchanged": true
+    },
+    {
+      "source_file": "data/processed/integrity_summary.json",
+      "destination_file": "data/transport/processed/integrity_summary.json",
+      "sha256": "c79a31bdabea58cd3201accab8ca8991d9073d40420a80da7ea4f02ec3b816b2",
+      "unchanged": true
+    },
+    {
+      "source_file": "data/processed/localization_horizontal_scan.csv",
+      "destination_file": "data/transport/processed/localization_horizontal_scan.csv",
+      "sha256": "e1fa431ca62b09ea5bf37c03d51bf03c2ead418b89c6490c7943ae31a9d08d92",
+      "unchanged": true
+    },
+    {
+      "source_file": "data/processed/localization_records.csv",
+      "destination_file": "data/transport/processed/localization_records.csv",
+      "sha256": "e82d69b09e517192d41564935c951eab52d84ac8b2f7536edb4e333f60d9f1ea",
+      "unchanged": true
+    },
+    {
+      "source_file": "data/processed/localization_sample_means.csv",
+      "destination_file": "data/transport/processed/localization_sample_means.csv",
+      "sha256": "37b0239bfd249f3fcd32d9d43bf012ac94da0d3e9dedee1e77b5ac47a447eedd",
+      "unchanged": true
+    },
+    {
+      "source_file": "data/processed/localization_summary.json",
+      "destination_file": "data/transport/processed/localization_summary.json",
+      "sha256": "81a3086ef15fe2a2877b6b6cc2efd00ed7ec3ac3e7e242cb6b685ecd4e04eb65",
+      "unchanged": true
+    },
+    {
+      "source_file": "data/processed/TH21_DLS_distribution.csv",
+      "destination_file": "data/transport/processed/TH21_DLS_distribution.csv",
+      "sha256": "f221f8446612edcac76a9963a89d1e23317d3d9f2ac2272f57fd8e3469ee6311",
+      "unchanged": true
+    },
+    {
+      "source_file": "data/reference_inputs.json",
+      "destination_file": "data/transport/reference_inputs.json",
+      "sha256": "3f02bc8f7599447c5ad8f9c8c98e69e487bf77dfd4a809456f7c11166555ddf9",
+      "unchanged": true
+    },
+    {
+      "source_file": "data/Team_Design_Input.json",
+      "destination_file": "data/transport/Team_Design_Input.json",
+      "sha256": "728b673a5ceb8a4c05f74cfc0ab3c8be75269aee2d8827184cb8f81b5f7f1a43",
+      "unchanged": true
+    },
+    {
+      "source_file": "results/depth_profiles.csv",
+      "destination_file": "results/transport/depth_profiles.csv",
+      "sha256": "aac6644d47e4f8eefce92fa80a807b6746196cecc4edcca453fa6850163eecf9",
+      "unchanged": true
+    },
+    {
+      "source_file": "results/depth_time_heatmap.csv",
+      "destination_file": "results/transport/depth_time_heatmap.csv",
+      "sha256": "a79ebb66010a015a3f8aec2d2e4ac760ce00caa68117cbfc6e6c60b996f348c1",
+      "unchanged": true
+    },
+    {
+      "source_file": "results/images/Fig02_Model_and_Window.png",
+      "destination_file": "results/transport/images/Fig02_Model_and_Window.png",
+      "sha256": "3cfc6193b739e0af7d7394390c7c4a2feb96efa079a7ad2182b8c619b5dbb6b5",
+      "unchanged": true
+    },
+    {
+      "source_file": "results/images/Fig02_Model_and_Window.svg",
+      "destination_file": "results/transport/images/Fig02_Model_and_Window.svg",
+      "sha256": "b3de5af6faeb9839d1defa7b4b92ea0cf7e6a4013f7c63efcaf1c4e9559b51e7",
+      "unchanged": true
+    },
+    {
+      "source_file": "results/images/Fig03_Application_Exposure.png",
+      "destination_file": "results/transport/images/Fig03_Application_Exposure.png",
+      "sha256": "99ec2fea1067d092da5c0cacda48bfe0a53c4ca76ea0f2f587ec6232020b3f4f",
+      "unchanged": true
+    },
+    {
+      "source_file": "results/images/Fig03_Application_Exposure.svg",
+      "destination_file": "results/transport/images/Fig03_Application_Exposure.svg",
+      "sha256": "180a4ab284b22b46b692c7c90956a1da7b2b3d77b8bb05b5c3facc5fec0014b6",
+      "unchanged": true
+    },
+    {
+      "source_file": "results/images/Fig04_Depth_and_Delayed_Exposure_Heatmap.png",
+      "destination_file": "results/transport/images/Fig04_Depth_and_Delayed_Exposure_Heatmap.png",
+      "sha256": "12c791e119b7d4bfe2fd82e896415bf8ee49c3ad34f0420af3291d964daeccd2",
+      "unchanged": true
+    },
+    {
+      "source_file": "results/images/Fig04_Depth_and_Delayed_Exposure_Heatmap.svg",
+      "destination_file": "results/transport/images/Fig04_Depth_and_Delayed_Exposure_Heatmap.svg",
+      "sha256": "e5398514a78ba12169c738fafcbb35fdd8a5be875be1ecc47fb168ee4223bf9a",
+      "unchanged": true
+    },
+    {
+      "source_file": "results/images/Fig05_Uptake_and_Contact.png",
+      "destination_file": "results/transport/images/Fig05_Uptake_and_Contact.png",
+      "sha256": "f85346e1c0289ad98f458bf0d6b2190838f2bc3c994f16122a536b5cbf5a59d0",
+      "unchanged": true
+    },
+    {
+      "source_file": "results/images/Fig05_Uptake_and_Contact.svg",
+      "destination_file": "results/transport/images/Fig05_Uptake_and_Contact.svg",
+      "sha256": "0c0c9c33c2131cacb203e752cd18668de1755a238d21ad4c458c5116998134a6",
+      "unchanged": true
+    },
+    {
+      "source_file": "results/layer_retention.csv",
+      "destination_file": "results/transport/layer_retention.csv",
+      "sha256": "a18460b2de3670217b3c0ba09621be793504cc99a14497972e900df35f1b0f39",
+      "unchanged": true
+    },
+    {
+      "source_file": "results/summary.json",
+      "destination_file": "results/transport/summary.json",
+      "sha256": "492c4a7d02994ef28bef0dc77c1101d2fab2063fd9f0ebd1fa87bd8e412a45c9",
+      "unchanged": true
+    },
+    {
+      "source_file": "results/timeseries.csv",
+      "destination_file": "results/transport/timeseries.csv",
+      "sha256": "b9676b91b2c5902ddd3e348ed3682e42416614e5cdb1eaaf69bc901cf82af1ea",
+      "unchanged": true
+    },
+    {
+      "source_file": "results/uptake_sensitivity.csv",
+      "destination_file": "results/transport/uptake_sensitivity.csv",
+      "sha256": "09a662d4aaaca6ac54b05d67e913daca315583533223e88a4dc044217715aaea",
+      "unchanged": true
+    }
+  ],
+  "python_syntax": "passed",
+  "runtime_seconds": 10.64,
+  "runtime_environment": {
+    "python": "3.12.14",
+    "numpy": "2.5.2",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2"
+  },
+  "run_working_directory": "independent temporary directory",
+  "run_exit_code": 0
+}

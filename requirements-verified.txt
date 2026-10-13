@@ -1,0 +1,8 @@
+# Publication CPU review, Python 3.13.9 / Windows x86-64.
+numpy==2.3.5
+scipy==1.16.3
+pandas==2.3.3
+scikit-learn==1.7.2
+joblib==1.5.2
+threadpoolctl==3.5.0
+matplotlib==3.10.6

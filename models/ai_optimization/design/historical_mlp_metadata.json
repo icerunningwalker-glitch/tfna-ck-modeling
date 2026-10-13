@@ -1,0 +1,15 @@
+{
+  "model_name": "MLP",
+  "features": 128,
+  "encoder": "Frozen HyenaDNA tiny, 2 layers, d_model=128",
+  "checkpoint_revision": "e8c1effa8673814e257e627d2e1eda9ea5a373f6",
+  "target": "deduplicated local docking-site count at S=-E_Vina >= 8.0 kcal/mol",
+  "integer_rule": "floor(max(prediction,0)+0.5)",
+  "pooling": "mean over 20 bases, forward/RC average",
+  "scope": "local duplex count; whole-tetrahedron sum is a proxy",
+  "model_version": "historical_frozen_MLP_16_hidden_20261001",
+  "original_sklearn_version": "1.9.0",
+  "historical_joblib_sha256": "7f84908119a43d0083772759f842c72ce69a77ede80f6602e879d0a5e47c57ae",
+  "numeric_export": "Lossless numeric snapshot of fitted variance mask, input scaling, ReLU MLP weights, and target inverse scaling; no retraining.",
+  "not_the_new_seven_model_five_fold_checkpoint": true
+}

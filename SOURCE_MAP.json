@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "source_archive_sha256": "ee2cf12624c0ce7eb94429936a8134c109b0bbea24804ae1b0eb742027515f8f",
+  "source_archive": "基于AI辅助的四面体框架核酸序列优化以提高萜类物质负载的研究 代码提交（区赛）.zip",
+  "private_paths_recorded": false,
+  "modules": [
+    {
+      "previous_root": "AI_Optimization",
+      "source": "src/ai_optimization",
+      "data": "data/ai_optimization",
+      "models": "models/ai_optimization",
+      "results": "results/ai_optimization",
+      "logs": "logs/ai_optimization",
+      "method_change": false
+    },
+    {
+      "previous_root": "virtual_screening",
+      "source": "src/virtual_screening",
+      "data": "data/virtual_screening",
+      "models": "models/virtual_screening",
+      "results": "results/virtual_screening",
+      "logs": "logs/virtual_screening",
+      "method_change": false,
+      "synthetic_exports_separated": true
+    },
+    {
+      "previous_root": "final_data_and_src",
+      "source": "src/transport",
+      "data": "data/transport",
+      "models": "models/transport",
+      "results": "results/transport",
+      "logs": "logs/transport",
+      "method_change": false
+    }
+  ],
+  "integration_changes": [
+    "root entry points",
+    "shared result schema",
+    "relative asset locations",
+    "separate mock demonstration",
+    "new-output protection",
+    "anonymous reproducibility logs",
+    "executable notebook"
+  ],
+  "scientific_algorithms_unchanged": true
+}

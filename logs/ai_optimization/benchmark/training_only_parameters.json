@@ -1,0 +1,467 @@
+[
+  {
+    "model": "MLP",
+    "outer_fold": 1,
+    "parameters": {
+      "regressor__model__alpha": 1,
+      "regressor__model__hidden_layer_sizes": [
+        2
+      ]
+    },
+    "mean_training_CV_MAE": 0.3590015720655102,
+    "selection": "Minimum mean continuous inner CV MAE",
+    "PCA_training_explained_variance_sum": 0.7010794748113304
+  },
+  {
+    "model": "MLP",
+    "outer_fold": 2,
+    "parameters": {
+      "regressor__model__alpha": 10,
+      "regressor__model__hidden_layer_sizes": [
+        4
+      ]
+    },
+    "mean_training_CV_MAE": 0.2943871122628754,
+    "selection": "Minimum mean continuous inner CV MAE",
+    "PCA_training_explained_variance_sum": 0.7084361509522561
+  },
+  {
+    "model": "MLP",
+    "outer_fold": 3,
+    "parameters": {
+      "regressor__model__alpha": 10,
+      "regressor__model__hidden_layer_sizes": [
+        2
+      ]
+    },
+    "mean_training_CV_MAE": 0.296655891495774,
+    "selection": "Minimum mean continuous inner CV MAE",
+    "PCA_training_explained_variance_sum": 0.6947016451000791
+  },
+  {
+    "model": "MLP",
+    "outer_fold": 4,
+    "parameters": {
+      "regressor__model__alpha": 1,
+      "regressor__model__hidden_layer_sizes": [
+        2
+      ]
+    },
+    "mean_training_CV_MAE": 0.3028023578167225,
+    "selection": "Minimum mean continuous inner CV MAE",
+    "PCA_training_explained_variance_sum": 0.6932128276464549
+  },
+  {
+    "model": "MLP",
+    "outer_fold": 5,
+    "parameters": {
+      "regressor__model__alpha": 10,
+      "regressor__model__hidden_layer_sizes": [
+        2
+      ]
+    },
+    "mean_training_CV_MAE": 0.3143738703043257,
+    "selection": "Minimum mean continuous inner CV MAE",
+    "PCA_training_explained_variance_sum": 0.6837268362691746
+  },
+  {
+    "model": "SVR",
+    "outer_fold": 1,
+    "parameters": {
+      "regressor__model__C": 2,
+      "regressor__model__epsilon": 0.05
+    },
+    "mean_training_CV_MAE": 0.3319336783306776,
+    "selection": "Minimum mean continuous inner CV MAE",
+    "PCA_training_explained_variance_sum": 0.7010794748113304
+  },
+  {
+    "model": "SVR",
+    "outer_fold": 2,
+    "parameters": {
+      "regressor__model__C": 2,
+      "regressor__model__epsilon": 0.05
+    },
+    "mean_training_CV_MAE": 0.3259720635510975,
+    "selection": "Minimum mean continuous inner CV MAE",
+    "PCA_training_explained_variance_sum": 0.7084361509522561
+  },
+  {
+    "model": "SVR",
+    "outer_fold": 3,
+    "parameters": {
+      "regressor__model__C": 2,
+      "regressor__model__epsilon": 0.05
+    },
+    "mean_training_CV_MAE": 0.3352327318544397,
+    "selection": "Minimum mean continuous inner CV MAE",
+    "PCA_training_explained_variance_sum": 0.6947016451000791
+  },
+  {
+    "model": "SVR",
+    "outer_fold": 4,
+    "parameters": {
+      "regressor__model__C": 2,
+      "regressor__model__epsilon": 0.05
+    },
+    "mean_training_CV_MAE": 0.3420384282250662,
+    "selection": "Minimum mean continuous inner CV MAE",
+    "PCA_training_explained_variance_sum": 0.6932128276464549
+  },
+  {
+    "model": "SVR",
+    "outer_fold": 5,
+    "parameters": {
+      "regressor__model__C": 2,
+      "regressor__model__epsilon": 0.05
+    },
+    "mean_training_CV_MAE": 0.29279732759606936,
+    "selection": "Minimum mean continuous inner CV MAE",
+    "PCA_training_explained_variance_sum": 0.6837268362691746
+  },
+  {
+    "model": "Ridge",
+    "outer_fold": 1,
+    "parameters": {
+      "regressor__model__alpha": 1
+    },
+    "mean_training_CV_MAE": 0.399102496095119,
+    "selection": "Minimum mean continuous inner CV MAE",
+    "PCA_training_explained_variance_sum": 0.7010794748113304
+  },
+  {
+    "model": "Ridge",
+    "outer_fold": 2,
+    "parameters": {
+      "regressor__model__alpha": 1
+    },
+    "mean_training_CV_MAE": 0.34520706850818467,
+    "selection": "Minimum mean continuous inner CV MAE",
+    "PCA_training_explained_variance_sum": 0.7084361509522561
+  },
+  {
+    "model": "Ridge",
+    "outer_fold": 3,
+    "parameters": {
+      "regressor__model__alpha": 1
+    },
+    "mean_training_CV_MAE": 0.3200454680050678,
+    "selection": "Minimum mean continuous inner CV MAE",
+    "PCA_training_explained_variance_sum": 0.6947016451000791
+  },
+  {
+    "model": "Ridge",
+    "outer_fold": 4,
+    "parameters": {
+      "regressor__model__alpha": 1
+    },
+    "mean_training_CV_MAE": 0.3605814881297739,
+    "selection": "Minimum mean continuous inner CV MAE",
+    "PCA_training_explained_variance_sum": 0.6932128276464549
+  },
+  {
+    "model": "Ridge",
+    "outer_fold": 5,
+    "parameters": {
+      "regressor__model__alpha": 1
+    },
+    "mean_training_CV_MAE": 0.35345060773028675,
+    "selection": "Minimum mean continuous inner CV MAE",
+    "PCA_training_explained_variance_sum": 0.6837268362691746
+  },
+  {
+    "model": "Random forest",
+    "outer_fold": 1,
+    "parameters": {
+      "regressor__model__max_depth": 3,
+      "regressor__model__max_features": 1.0,
+      "regressor__model__min_samples_leaf": 3
+    },
+    "mean_training_CV_MAE": 0.37524704809089987,
+    "selection": "Minimum mean continuous inner CV MAE",
+    "PCA_training_explained_variance_sum": 0.7010794748113304
+  },
+  {
+    "model": "Random forest",
+    "outer_fold": 2,
+    "parameters": {
+      "regressor__model__max_depth": 3,
+      "regressor__model__max_features": 1.0,
+      "regressor__model__min_samples_leaf": 3
+    },
+    "mean_training_CV_MAE": 0.33879353668898915,
+    "selection": "Minimum mean continuous inner CV MAE",
+    "PCA_training_explained_variance_sum": 0.7084361509522561
+  },
+  {
+    "model": "Random forest",
+    "outer_fold": 3,
+    "parameters": {
+      "regressor__model__max_depth": 3,
+      "regressor__model__max_features": 1.0,
+      "regressor__model__min_samples_leaf": 3
+    },
+    "mean_training_CV_MAE": 0.343243394608989,
+    "selection": "Minimum mean continuous inner CV MAE",
+    "PCA_training_explained_variance_sum": 0.6947016451000791
+  },
+  {
+    "model": "Random forest",
+    "outer_fold": 4,
+    "parameters": {
+      "regressor__model__max_depth": 3,
+      "regressor__model__max_features": 1.0,
+      "regressor__model__min_samples_leaf": 3
+    },
+    "mean_training_CV_MAE": 0.3321486325878931,
+    "selection": "Minimum mean continuous inner CV MAE",
+    "PCA_training_explained_variance_sum": 0.6932128276464549
+  },
+  {
+    "model": "Random forest",
+    "outer_fold": 5,
+    "parameters": {
+      "regressor__model__max_depth": 3,
+      "regressor__model__max_features": 1.0,
+      "regressor__model__min_samples_leaf": 3
+    },
+    "mean_training_CV_MAE": 0.3412775032183872,
+    "selection": "Minimum mean continuous inner CV MAE",
+    "PCA_training_explained_variance_sum": 0.6837268362691746
+  },
+  {
+    "model": "ExtraTrees",
+    "outer_fold": 1,
+    "parameters": {
+      "regressor__model__max_depth": null,
+      "regressor__model__max_features": 1.0,
+      "regressor__model__min_samples_leaf": 3
+    },
+    "mean_training_CV_MAE": 0.37817330156726,
+    "selection": "Minimum mean continuous inner CV MAE",
+    "PCA_training_explained_variance_sum": 0.7010794748113304
+  },
+  {
+    "model": "ExtraTrees",
+    "outer_fold": 2,
+    "parameters": {
+      "regressor__model__max_depth": null,
+      "regressor__model__max_features": 1.0,
+      "regressor__model__min_samples_leaf": 3
+    },
+    "mean_training_CV_MAE": 0.34070949654464977,
+    "selection": "Minimum mean continuous inner CV MAE",
+    "PCA_training_explained_variance_sum": 0.7084361509522561
+  },
+  {
+    "model": "ExtraTrees",
+    "outer_fold": 3,
+    "parameters": {
+      "regressor__model__max_depth": 6,
+      "regressor__model__max_features": 1.0,
+      "regressor__model__min_samples_leaf": 3
+    },
+    "mean_training_CV_MAE": 0.3377788519067348,
+    "selection": "Minimum mean continuous inner CV MAE",
+    "PCA_training_explained_variance_sum": 0.6947016451000791
+  },
+  {
+    "model": "ExtraTrees",
+    "outer_fold": 4,
+    "parameters": {
+      "regressor__model__max_depth": null,
+      "regressor__model__max_features": 1.0,
+      "regressor__model__min_samples_leaf": 3
+    },
+    "mean_training_CV_MAE": 0.3515381685081443,
+    "selection": "Minimum mean continuous inner CV MAE",
+    "PCA_training_explained_variance_sum": 0.6932128276464549
+  },
+  {
+    "model": "ExtraTrees",
+    "outer_fold": 5,
+    "parameters": {
+      "regressor__model__max_depth": 6,
+      "regressor__model__max_features": 1.0,
+      "regressor__model__min_samples_leaf": 3
+    },
+    "mean_training_CV_MAE": 0.34521380027784065,
+    "selection": "Minimum mean continuous inner CV MAE",
+    "PCA_training_explained_variance_sum": 0.6837268362691746
+  },
+  {
+    "model": "GPR",
+    "outer_fold": 1,
+    "parameters": {
+      "regressor__model__alpha": 0.1
+    },
+    "mean_training_CV_MAE": 0.41277302852689995,
+    "selection": "Minimum mean continuous inner CV MAE",
+    "PCA_training_explained_variance_sum": 0.7010794748113304
+  },
+  {
+    "model": "GPR",
+    "outer_fold": 2,
+    "parameters": {
+      "regressor__model__alpha": 0.1
+    },
+    "mean_training_CV_MAE": 0.37180583169510206,
+    "selection": "Minimum mean continuous inner CV MAE",
+    "PCA_training_explained_variance_sum": 0.7084361509522561
+  },
+  {
+    "model": "GPR",
+    "outer_fold": 3,
+    "parameters": {
+      "regressor__model__alpha": 0.1
+    },
+    "mean_training_CV_MAE": 0.360002101158926,
+    "selection": "Minimum mean continuous inner CV MAE",
+    "PCA_training_explained_variance_sum": 0.6947016451000791
+  },
+  {
+    "model": "GPR",
+    "outer_fold": 4,
+    "parameters": {
+      "regressor__model__alpha": 0.1
+    },
+    "mean_training_CV_MAE": 0.3690763341432863,
+    "selection": "Minimum mean continuous inner CV MAE",
+    "PCA_training_explained_variance_sum": 0.6932128276464549
+  },
+  {
+    "model": "GPR",
+    "outer_fold": 5,
+    "parameters": {
+      "regressor__model__alpha": 0.1
+    },
+    "mean_training_CV_MAE": 0.3342309673088953,
+    "selection": "Minimum mean continuous inner CV MAE",
+    "PCA_training_explained_variance_sum": 0.6837268362691746
+  },
+  {
+    "model": "TabPFN",
+    "outer_fold": 1,
+    "parameters": {},
+    "mean_training_CV_MAE": 0.3425051470597585,
+    "selection": "Minimum mean continuous inner CV MAE",
+    "PCA_training_explained_variance_sum": 0.7010794748113304
+  },
+  {
+    "model": "TabPFN",
+    "outer_fold": 2,
+    "parameters": {},
+    "mean_training_CV_MAE": 0.33835838238398236,
+    "selection": "Minimum mean continuous inner CV MAE",
+    "PCA_training_explained_variance_sum": 0.7084361509522561
+  },
+  {
+    "model": "TabPFN",
+    "outer_fold": 3,
+    "parameters": {},
+    "mean_training_CV_MAE": 0.3585246404012044,
+    "selection": "Minimum mean continuous inner CV MAE",
+    "PCA_training_explained_variance_sum": 0.6947016451000791
+  },
+  {
+    "model": "TabPFN",
+    "outer_fold": 4,
+    "parameters": {},
+    "mean_training_CV_MAE": 0.30054954936107,
+    "selection": "Minimum mean continuous inner CV MAE",
+    "PCA_training_explained_variance_sum": 0.6932128276464549
+  },
+  {
+    "model": "TabPFN",
+    "outer_fold": 5,
+    "parameters": {},
+    "mean_training_CV_MAE": 0.3209799478451411,
+    "selection": "Minimum mean continuous inner CV MAE",
+    "PCA_training_explained_variance_sum": 0.6837268362691746
+  },
+  {
+    "model": "Training-median baseline",
+    "outer_fold": 1,
+    "parameters": {
+      "training_median": 1.0
+    },
+    "selection": "Training data only; no grid"
+  },
+  {
+    "model": "Training-median baseline",
+    "outer_fold": 2,
+    "parameters": {
+      "training_median": 1.0
+    },
+    "selection": "Training data only; no grid"
+  },
+  {
+    "model": "Training-median baseline",
+    "outer_fold": 3,
+    "parameters": {
+      "training_median": 1.0
+    },
+    "selection": "Training data only; no grid"
+  },
+  {
+    "model": "Training-median baseline",
+    "outer_fold": 4,
+    "parameters": {
+      "training_median": 1.0
+    },
+    "selection": "Training data only; no grid"
+  },
+  {
+    "model": "Training-median baseline",
+    "outer_fold": 5,
+    "parameters": {
+      "training_median": 1.0
+    },
+    "selection": "Training data only; no grid"
+  },
+  {
+    "model": "One-hot Ridge baseline",
+    "outer_fold": 1,
+    "parameters": {
+      "regressor__model__alpha": 100
+    },
+    "mean_training_CV_MAE": 0.3065351618764309,
+    "selection": "Minimum mean continuous inner CV MAE"
+  },
+  {
+    "model": "One-hot Ridge baseline",
+    "outer_fold": 2,
+    "parameters": {
+      "regressor__model__alpha": 100
+    },
+    "mean_training_CV_MAE": 0.2878798607886622,
+    "selection": "Minimum mean continuous inner CV MAE"
+  },
+  {
+    "model": "One-hot Ridge baseline",
+    "outer_fold": 3,
+    "parameters": {
+      "regressor__model__alpha": 100
+    },
+    "mean_training_CV_MAE": 0.2739983542070367,
+    "selection": "Minimum mean continuous inner CV MAE"
+  },
+  {
+    "model": "One-hot Ridge baseline",
+    "outer_fold": 4,
+    "parameters": {
+      "regressor__model__alpha": 100
+    },
+    "mean_training_CV_MAE": 0.30724910133679884,
+    "selection": "Minimum mean continuous inner CV MAE"
+  },
+  {
+    "model": "One-hot Ridge baseline",
+    "outer_fold": 5,
+    "parameters": {
+      "regressor__model__alpha": 100
+    },
+    "mean_training_CV_MAE": 0.3411959210617123,
+    "selection": "Minimum mean continuous inner CV MAE"
+  }
+]

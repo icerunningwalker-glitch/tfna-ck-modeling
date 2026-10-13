@@ -1,0 +1,6 @@
+{
+  "data/ai_optimization/benchmark/uniform_single_seed_labels.csv": "a0dc1c5a65817769b3712f97e05587b8bd07710263f231d811917103c96c5f14",
+  "data/ai_optimization/benchmark/outer_assignments.csv": "abf114fefedd76354447b323feb9651ff8b5047308529816e398ba57dd51b43b",
+  "data/ai_optimization/benchmark/training_group_CV_assignments.csv": "63881246a19a987084f4db291fa773f7a264675cd140adf3de3b4e92db38d88c",
+  "data/ai_optimization/benchmark/hyena_features.npz": "1c9a6459bf02563257e53aaebb4d6a63d7944a59952a451da12d5496f84958ef"
+}

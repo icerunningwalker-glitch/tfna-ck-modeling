@@ -1,0 +1,95 @@
+{
+  "source": "read-only virtual_screening snapshot",
+  "files": [
+    {
+      "file": "src/virtual_screening/demo.py",
+      "sha256": "9024358c72543e329bb7dac11fe820215d5e85afc5c63db96824f782c94057ed",
+      "snapshot_sha256": "c668cbc0132b74205a554509b25512b8ba930d5302dc21fc8b0c4276fa2aec70"
+    },
+    {
+      "file": "src/virtual_screening/predict.py",
+      "sha256": "249040cef1fd5e7a106df1000c4446841c84e8d6af4e30329812ef555c3644a4",
+      "snapshot_sha256": "249040cef1fd5e7a106df1000c4446841c84e8d6af4e30329812ef555c3644a4"
+    },
+    {
+      "file": "src/virtual_screening/screen.py",
+      "sha256": "3b18878c2574727f0bc42fe62075bf830434d48f424bf20d149faf5f359e86fb",
+      "snapshot_sha256": "3b18878c2574727f0bc42fe62075bf830434d48f424bf20d149faf5f359e86fb"
+    },
+    {
+      "file": "src/virtual_screening/self_test.py",
+      "sha256": "6de62ca64f411eed214e5354211fec15057d0b9af6b12c976f0238dddce51cf6",
+      "snapshot_sha256": "93117b5ed524aa34640747d7aae85c84242bc3d8c3876de6a7bc4f7cb0c4a225"
+    },
+    {
+      "file": "src/virtual_screening/src/bootstrap_screen.py",
+      "sha256": "d4a47ddaea7fd388b2f722f973dcf783b442cbb8be4a76aada62f1130a23e603",
+      "snapshot_sha256": "d4a47ddaea7fd388b2f722f973dcf783b442cbb8be4a76aada62f1130a23e603"
+    },
+    {
+      "file": "src/virtual_screening/src/chemistry_geometry_checks.py",
+      "sha256": "a8a5217aa5af902aedfc8dd684057bf42f85a849b96917a0486c2fad27a282b5",
+      "snapshot_sha256": "a8a5217aa5af902aedfc8dd684057bf42f85a849b96917a0486c2fad27a282b5"
+    },
+    {
+      "file": "src/virtual_screening/src/execute_pipeline.py",
+      "sha256": "b288ab7e704140abeae8be48b30b3dc8ef6a58ce6996428b24768ee63541288a",
+      "snapshot_sha256": "b288ab7e704140abeae8be48b30b3dc8ef6a58ce6996428b24768ee63541288a"
+    },
+    {
+      "file": "src/virtual_screening/src/finalize_report.py",
+      "sha256": "0c844c0d0959a7a73819fcfd692eacb196b903f0ba9f2f8488cb46b00611fcb7",
+      "snapshot_sha256": "85ff3b5b7120b90d5e2eda2fa407c08003d76a5a178c266f43b6786fa01c12b4"
+    },
+    {
+      "file": "src/virtual_screening/src/prepare_library.py",
+      "sha256": "3a48fe9aa5770a2180c798fc0a61a89099243acc981c2aef7851c218879b9d42",
+      "snapshot_sha256": "3a48fe9aa5770a2180c798fc0a61a89099243acc981c2aef7851c218879b9d42"
+    },
+    {
+      "file": "src/virtual_screening/src/rigid_conformer_fallback.py",
+      "sha256": "c77b5a46034f50d2b7069f57c401cdeae268ca4b14b3c26e7c5314fa2a924528",
+      "snapshot_sha256": "c77b5a46034f50d2b7069f57c401cdeae268ca4b14b3c26e7c5314fa2a924528"
+    },
+    {
+      "file": "src/virtual_screening/src/run_screen.py",
+      "sha256": "cdf60536cca530f4fed1fce1ddf3bde9df246fa71a51c302a933af515602caab",
+      "snapshot_sha256": "cdf60536cca530f4fed1fce1ddf3bde9df246fa71a51c302a933af515602caab"
+    },
+    {
+      "file": "src/virtual_screening/src/test_chemistry_geometry_checks.py",
+      "sha256": "d1152f5319507fdcce9b3d9dc7e81e905e60c7b289f9a10746bfe3c1a4fba412",
+      "snapshot_sha256": "d1152f5319507fdcce9b3d9dc7e81e905e60c7b289f9a10746bfe3c1a4fba412"
+    },
+    {
+      "file": "src/virtual_screening/src/test_finalize_report.py",
+      "sha256": "81fd210a1b635321d8cd30e6f3074fbe0a1792b1f4cb4d3acb2c5a602796dcba",
+      "snapshot_sha256": "81fd210a1b635321d8cd30e6f3074fbe0a1792b1f4cb4d3acb2c5a602796dcba"
+    },
+    {
+      "file": "src/virtual_screening/src/test_portable.py",
+      "sha256": "c440a280f7b15c0ef9aa35a02dd07c30809ae9fec4fdd85825ba94adc504f3c2",
+      "snapshot_sha256": "caa1a99cfb9eac675976be75e63914851f0f4af3fe69032bd109369028885208"
+    },
+    {
+      "file": "src/virtual_screening/src/test_preparation_guards.py",
+      "sha256": "703c72c932f7216c30e8d0fc5b1a411eea6f52078b53448877f8e6f5fb5df2b7",
+      "snapshot_sha256": "703c72c932f7216c30e8d0fc5b1a411eea6f52078b53448877f8e6f5fb5df2b7"
+    },
+    {
+      "file": "src/virtual_screening/src/test_rigid_conformer_fallback.py",
+      "sha256": "2519f140faa18b4964d1060223e1046f77f82e68ed9b93499dfe356a7b326248",
+      "snapshot_sha256": "2519f140faa18b4964d1060223e1046f77f82e68ed9b93499dfe356a7b326248"
+    },
+    {
+      "file": "src/virtual_screening/src/test_run_screen.py",
+      "sha256": "b211843ac13ab014640d2badef8f11283890d1eb177f178288f3294ea706c3e6",
+      "snapshot_sha256": "b211843ac13ab014640d2badef8f11283890d1eb177f178288f3294ea706c3e6"
+    }
+  ],
+  "changes": [
+    "Normalized layout and module-location-based demo output",
+    "Synthetic-only marker and separate synthetic_results.csv",
+    "Retained original numerical screening protocol and test suite"
+  ]
+}

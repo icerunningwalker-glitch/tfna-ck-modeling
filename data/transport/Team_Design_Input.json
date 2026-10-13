@@ -1,0 +1,9 @@
+{
+  "source": "Team design inputs",
+  "external_supply_min": 15.0,
+  "target_CK_uM": 1.0,
+  "CK_molecules_per_tFNA": 2,
+  "target_intact_tFNA_uM": 0.5,
+  "particle_convention": "Complete TH21 particles",
+  "note": "target_CK_uM is the wet-lab upper safe CK concentration limit; target_intact_tFNA_uM is its carrier concentration equivalent at the stated CK loading. Concentrations are evaluated on a CK-loading-equivalent basis."
+}

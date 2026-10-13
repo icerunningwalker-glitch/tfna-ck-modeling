@@ -1,0 +1,4 @@
+No external binaries or restricted datasets are included.
+The source owner must choose and approve a code license before public open-source distribution.
+No blanket license is asserted for third-party methods, tools, data or the broader research project.
+This package is not uploaded or published by the packaging process.

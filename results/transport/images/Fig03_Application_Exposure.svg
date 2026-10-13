@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="749.99952pt" height="274.797925pt" viewBox="0 0 749.99952 274.797925" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-13T13:33:03.097311</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.6, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 274.797925 
+L 749.99952 274.797925 
+L 749.99952 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 50.14375 237.241675 
+L 364.92926 237.241675 
+L 364.92926 26.838294 
+L 50.14375 26.838294 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="m9ddec91cb0" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m9ddec91cb0" x="50.14375" y="237.241675" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="50.14375" y="251.840113" transform="rotate(-0 50.14375 251.840113)">0</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#m9ddec91cb0" x="155.072253" y="237.241675" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="155.072253" y="251.840113" transform="rotate(-0 155.072253 251.840113)">5</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#m9ddec91cb0" x="260.000757" y="237.241675" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="260.000757" y="251.840113" transform="rotate(-0 260.000757 251.840113)">10</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#m9ddec91cb0" x="364.92926" y="237.241675" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="364.92926" y="251.840113" transform="rotate(-0 364.92926 251.840113)">15</text>
+     </g>
+    </g>
+    <g id="text_5">
+     <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="207.536505" y="265.518238" transform="rotate(-0 207.536505 265.518238)">Time during application (min)</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_5">
+      <defs>
+       <path id="m1dfc47f548" d="M 0 0 
+L -3.5 0 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m1dfc47f548" x="50.14375" y="237.241675" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end" x="43.14375" y="241.040894" transform="rotate(-0 43.14375 241.040894)">0.00</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#m1dfc47f548" x="50.14375" y="184.64083" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end" x="43.14375" y="188.440049" transform="rotate(-0 43.14375 188.440049)">0.02</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_7">
+      <g>
+       <use xlink:href="#m1dfc47f548" x="50.14375" y="132.039985" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end" x="43.14375" y="135.839203" transform="rotate(-0 43.14375 135.839203)">0.04</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#m1dfc47f548" x="50.14375" y="79.439139" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end" x="43.14375" y="83.238358" transform="rotate(-0 43.14375 83.238358)">0.06</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_9">
+      <g>
+       <use xlink:href="#m1dfc47f548" x="50.14375" y="26.838294" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_10">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end" x="43.14375" y="30.637513" transform="rotate(-0 43.14375 30.637513)">0.08</text>
+     </g>
+    </g>
+    <g id="text_11">
+     <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="14.798438" y="132.039985" transform="rotate(-90 14.798438 132.039985)">Intact tFNA at cell surface (µmol/L)</text>
+    </g>
+   </g>
+   <g id="line2d_10">
+    <path d="M 50.14375 237.241675 
+L 54.34089 233.280818 
+L 60.6366 227.682957 
+L 69.030881 220.610153 
+L 77.425161 213.876918 
+L 85.819441 207.426722 
+L 94.213721 201.226531 
+L 104.706572 193.794069 
+L 115.199422 186.684328 
+L 125.692272 179.87079 
+L 136.185123 173.330699 
+L 146.677973 167.043884 
+L 157.170823 160.992189 
+L 169.762244 154.017424 
+L 182.353664 147.331883 
+L 194.945085 140.912512 
+L 207.536505 134.738575 
+L 220.127925 128.79139 
+L 234.817916 122.117192 
+L 249.507906 115.70472 
+L 264.197897 109.532566 
+L 278.887887 103.581617 
+L 295.676448 97.029551 
+L 312.465008 90.721441 
+L 329.253569 84.637231 
+L 348.140699 78.038079 
+L 364.92926 72.373117 
+L 364.92926 72.373117 
+" clip-path="url(#p6a06e43d11)" style="fill: none; stroke: #7e0909; stroke-width: 2; stroke-linecap: square"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 50.14375 237.241675 
+L 50.14375 26.838294 
+" style="fill: none; stroke: #5d5d2a; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 50.14375 237.241675 
+L 364.92926 237.241675 
+" style="fill: none; stroke: #5d5d2a; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(65.883026 89.281665)">At 15 min</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(65.883026 100.479477)">0.0627 µmol/L</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #5d5d2a" x="358.63355" y="41.333179" transform="rotate(-0 358.63355 41.333179)">Team tFNA limit: 0.5 µmol/L (off scale)</text>
+   </g>
+   <g id="text_14">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start" x="18.665199" y="16.318125" transform="rotate(-0 18.665199 16.318125)">A</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle" x="207.536505" y="20.838294" transform="rotate(-0 207.536505 20.838294)">Viable epidermis</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_5">
+    <path d="M 421.65151 237.241675 
+L 736.43702 237.241675 
+L 736.43702 26.838294 
+L 421.65151 26.838294 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_3">
+    <g id="xtick_5">
+     <g id="line2d_11">
+      <g>
+       <use xlink:href="#m9ddec91cb0" x="421.65151" y="237.241675" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_16">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="421.65151" y="251.840113" transform="rotate(-0 421.65151 251.840113)">0</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#m9ddec91cb0" x="526.580013" y="237.241675" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_17">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="526.580013" y="251.840113" transform="rotate(-0 526.580013 251.840113)">5</text>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_13">
+      <g>
+       <use xlink:href="#m9ddec91cb0" x="631.508517" y="237.241675" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_18">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="631.508517" y="251.840113" transform="rotate(-0 631.508517 251.840113)">10</text>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_14">
+      <g>
+       <use xlink:href="#m9ddec91cb0" x="736.43702" y="237.241675" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_19">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="736.43702" y="251.840113" transform="rotate(-0 736.43702 251.840113)">15</text>
+     </g>
+    </g>
+    <g id="text_20">
+     <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="579.044265" y="265.518238" transform="rotate(-0 579.044265 265.518238)">Time during application (min)</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_4">
+    <g id="ytick_6">
+     <g id="line2d_15">
+      <g>
+       <use xlink:href="#m1dfc47f548" x="421.65151" y="237.241675" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_21">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end" x="414.65151" y="241.040894" transform="rotate(-0 414.65151 241.040894)">0.00</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_16">
+      <g>
+       <use xlink:href="#m1dfc47f548" x="421.65151" y="184.64083" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_22">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end" x="414.65151" y="188.440049" transform="rotate(-0 414.65151 188.440049)">0.02</text>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_17">
+      <g>
+       <use xlink:href="#m1dfc47f548" x="421.65151" y="132.039985" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_23">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end" x="414.65151" y="135.839203" transform="rotate(-0 414.65151 135.839203)">0.04</text>
+     </g>
+    </g>
+    <g id="ytick_9">
+     <g id="line2d_18">
+      <g>
+       <use xlink:href="#m1dfc47f548" x="421.65151" y="79.439139" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_24">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end" x="414.65151" y="83.238358" transform="rotate(-0 414.65151 83.238358)">0.06</text>
+     </g>
+    </g>
+    <g id="ytick_10">
+     <g id="line2d_19">
+      <g>
+       <use xlink:href="#m1dfc47f548" x="421.65151" y="26.838294" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_25">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end" x="414.65151" y="30.637513" transform="rotate(-0 414.65151 30.637513)">0.08</text>
+     </g>
+    </g>
+    <g id="text_26">
+     <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="386.306197" y="132.039985" transform="rotate(-90 386.306197 132.039985)">Intact tFNA at cell surface (µmol/L)</text>
+    </g>
+   </g>
+   <g id="line2d_20">
+    <path d="M 421.65151 237.241675 
+L 438.440071 234.998004 
+L 465.721481 231.114984 
+L 499.298602 226.096904 
+L 543.368574 219.265551 
+L 730.14131 190.038262 
+L 736.43702 189.086838 
+L 736.43702 189.086838 
+" clip-path="url(#p9b53c20cae)" style="fill: none; stroke: #7e0909; stroke-width: 2; stroke-linecap: square"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 421.65151 237.241675 
+L 421.65151 26.838294 
+" style="fill: none; stroke: #5d5d2a; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 421.65151 237.241675 
+L 736.43702 237.241675 
+" style="fill: none; stroke: #5d5d2a; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_27">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(437.390785 89.281665)">At 15 min</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(437.390785 100.479477)">0.0183 µmol/L</text>
+   </g>
+   <g id="text_28">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #5d5d2a" x="730.14131" y="41.333179" transform="rotate(-0 730.14131 41.333179)">Team tFNA limit: 0.5 µmol/L (off scale)</text>
+   </g>
+   <g id="text_29">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start" x="390.172959" y="16.318125" transform="rotate(-0 390.172959 16.318125)">B</text>
+   </g>
+   <g id="text_30">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle" x="579.044265" y="20.838294" transform="rotate(-0 579.044265 20.838294)">Shallow dermis</text>
+   </g>
+   <g id="legend_1">
+    <g id="line2d_21">
+     <path d="M 435.14722 62.56545 
+L 443.14722 62.56545 
+L 451.14722 62.56545 
+" style="fill: none; stroke: #7e0909; stroke-width: 2; stroke-linecap: square"/>
+    </g>
+    <g id="text_31">
+     <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: start" x="457.54722" y="65.36545" transform="rotate(-0 457.54722 65.36545)">Cell-contact tFNA concentration</text>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p6a06e43d11">
+   <rect x="50.14375" y="26.838294" width="314.78551" height="210.403381"/>
+  </clipPath>
+  <clipPath id="p9b53c20cae">
+   <rect x="421.65151" y="26.838294" width="314.78551" height="210.403381"/>
+  </clipPath>
+ </defs>
+</svg>

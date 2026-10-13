@@ -1,0 +1,1918 @@
+{
+  "status": "PASS",
+  "scope": "Read-only text, notebook source, SVG and PNG metadata, NPZ strings, trusted joblib strings and safetensors header. Public third-party notices are allowed.",
+  "checks": [
+    {
+      "file": "config/result_schema.json",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "config/submission.json",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/benchmark/hyena_features.npz",
+      "kind": "NPZ_internal",
+      "status": "PASS",
+      "text_fields": 3
+    },
+    {
+      "file": "data/ai_optimization/benchmark/outer_assignments.csv",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/benchmark/package_input_hashes.json",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/benchmark/training_group_CV_assignments.csv",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/benchmark/uniform_single_seed_labels.csv",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/all_84_constructs.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/Opt1.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/Opt2.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/Opt3.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/P1_01.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/P1_02.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/P1_03.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/P1_04.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/P1_05.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/P1_06.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/P1_07.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/P1_08.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/P1_09.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/P1_10.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/P1_11.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/P1_12.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/P1_13.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/P1_14.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/P1_15.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/P1_16.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/P1_17.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/P1_18.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/P1_19.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/P1_20.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/P2_01.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/P2_02.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/P2_03.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/P2_04.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/P2_05.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/P2_06.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/P2_07.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/P2_08.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/P2_09.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/P2_10.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/P2_11.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/P2_12.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/P2_13.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/P2_14.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/P2_15.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/P2_16.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/P2_17.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/P2_18.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/P2_19.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/P2_20.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/P3_01.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/P3_02.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/P3_03.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/P3_04.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/P3_05.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/P3_06.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/P3_07.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/P3_08.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/P3_09.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/P3_10.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/P3_11.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/P3_12.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/P3_13.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/P3_14.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/P3_15.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/P3_16.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/P3_17.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/P3_18.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/P3_19.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/P3_20.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/P4_01.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/P4_02.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/P4_03.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/P4_04.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/P4_05.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/P4_06.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/P4_07.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/P4_08.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/P4_09.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/P4_10.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/P4_11.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/P4_12.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/P4_13.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/P4_14.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/P4_15.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/P4_16.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/P4_17.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/P4_18.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/P4_19.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/P4_20.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/candidates_84/WT.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/four_constructs/Opt1.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/four_constructs/Opt2.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/four_constructs/Opt3.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/four_constructs/WT.fasta",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/historical_candidate_pool.csv",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/historical_training_features.npz",
+      "kind": "NPZ_internal",
+      "status": "PASS",
+      "text_fields": 2
+    },
+    {
+      "file": "data/ai_optimization/design/historical_tuning_fold_assignments.csv",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/local_feature_cache.npz",
+      "kind": "NPZ_internal",
+      "status": "PASS",
+      "text_fields": 1383
+    },
+    {
+      "file": "data/ai_optimization/design/previous_pool_sequence_hashes.txt",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/reference.json",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/ai_optimization/design/sequence_count_labels.csv",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/DATA_PROVENANCE.md",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/transport/Derived_Transport_Parameters.csv",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/transport/fit_summary.json",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/transport/Parameter_Table.csv",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/transport/processed/depth_records.csv",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/transport/processed/depth_summary.csv",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/transport/processed/fibroblast_records.csv",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/transport/processed/fibroblast_summary.csv",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/transport/processed/integrity_records.csv",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/transport/processed/integrity_summary.json",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/transport/processed/localization_horizontal_scan.csv",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/transport/processed/localization_records.csv",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/transport/processed/localization_sample_means.csv",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/transport/processed/localization_summary.json",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/transport/processed/TH21_DLS_distribution.csv",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/transport/reference_inputs.json",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/transport/Team_Design_Input.json",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/virtual_screening/DATA_SOURCES_TEMPLATE.csv",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/virtual_screening/examples/ligand_manifest_template.csv",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/virtual_screening/synthetic_inputs/ligands.csv",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/virtual_screening/synthetic_inputs/SYN001.pdbqt",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/virtual_screening/synthetic_inputs/SYN002.pdbqt",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "data/virtual_screening/synthetic_inputs/toy_receptor.pdbqt",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "demo.py",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "design.py",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "logs/ai_optimization/benchmark/analysis_plan.json",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "logs/ai_optimization/benchmark/environment_verification.json",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "logs/ai_optimization/benchmark/MODEL_PRIVACY_CHECK.json",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "logs/ai_optimization/benchmark/MODEL_VALIDATION.json",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "logs/ai_optimization/benchmark/PACKAGING_CHECKS.json",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "logs/ai_optimization/benchmark/relocated_saved_CV_validation.json",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "logs/ai_optimization/benchmark/relocated_snapshot_predictions_validation.json",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "logs/ai_optimization/benchmark/relocated_snapshot_predictions_validation_linux.json",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "logs/ai_optimization/benchmark/report.json",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "logs/ai_optimization/benchmark/training_CV_candidate_losses.csv",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "logs/ai_optimization/benchmark/training_only_parameters.json",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "logs/ai_optimization/benchmark/VALIDATION.json",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "logs/ai_optimization/benchmark/warnings.json",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "logs/ai_optimization/design/historical_training_protocol.json",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "logs/ai_optimization/design/previous_validation/cached_replay.json",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "logs/ai_optimization/design/previous_validation/cli_replay.json",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "logs/ai_optimization/design/previous_validation/fresh_opt3_replay.json",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "logs/ai_optimization/previous_package_validation/package_validation.json",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "logs/transport/Data_Sources.csv",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "logs/transport/MERGE_RECORD.md",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "logs/transport/provenance_and_run.json",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "logs/transport/run_elapsed_seconds.txt",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "logs/transport/run_stdout.txt",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "logs/transport/validation.json",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "logs/virtual_screening/demo.stderr.txt",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "logs/virtual_screening/demo.stdout.txt",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "logs/virtual_screening/LICENSE_STATUS.txt",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "logs/virtual_screening/self_test.stderr.txt",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "logs/virtual_screening/self_test.stdout.txt",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "logs/virtual_screening/SOURCE_PROVENANCE.json",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "logs/virtual_screening/synthetic_ranking_summary.json",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "logs/virtual_screening/UNIFICATION_SOURCE_MAP.json",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "logs/virtual_screening/VALIDATION.json",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "models/ai_optimization/benchmark/extratrees_fold1.joblib",
+      "kind": "joblib_internal",
+      "status": "PASS",
+      "text_fields": 4084
+    },
+    {
+      "file": "models/ai_optimization/benchmark/extratrees_fold2.joblib",
+      "kind": "joblib_internal",
+      "status": "PASS",
+      "text_fields": 4084
+    },
+    {
+      "file": "models/ai_optimization/benchmark/extratrees_fold3.joblib",
+      "kind": "joblib_internal",
+      "status": "PASS",
+      "text_fields": 4084
+    },
+    {
+      "file": "models/ai_optimization/benchmark/extratrees_fold4.joblib",
+      "kind": "joblib_internal",
+      "status": "PASS",
+      "text_fields": 4085
+    },
+    {
+      "file": "models/ai_optimization/benchmark/extratrees_fold5.joblib",
+      "kind": "joblib_internal",
+      "status": "PASS",
+      "text_fields": 4085
+    },
+    {
+      "file": "models/ai_optimization/benchmark/gpr_fold1.joblib",
+      "kind": "joblib_internal",
+      "status": "PASS",
+      "text_fields": 250
+    },
+    {
+      "file": "models/ai_optimization/benchmark/gpr_fold2.joblib",
+      "kind": "joblib_internal",
+      "status": "PASS",
+      "text_fields": 250
+    },
+    {
+      "file": "models/ai_optimization/benchmark/gpr_fold3.joblib",
+      "kind": "joblib_internal",
+      "status": "PASS",
+      "text_fields": 250
+    },
+    {
+      "file": "models/ai_optimization/benchmark/gpr_fold4.joblib",
+      "kind": "joblib_internal",
+      "status": "PASS",
+      "text_fields": 251
+    },
+    {
+      "file": "models/ai_optimization/benchmark/gpr_fold5.joblib",
+      "kind": "joblib_internal",
+      "status": "PASS",
+      "text_fields": 251
+    },
+    {
+      "file": "models/ai_optimization/benchmark/mlp_fold1.joblib",
+      "kind": "joblib_internal",
+      "status": "PASS",
+      "text_fields": 265
+    },
+    {
+      "file": "models/ai_optimization/benchmark/mlp_fold2.joblib",
+      "kind": "joblib_internal",
+      "status": "PASS",
+      "text_fields": 265
+    },
+    {
+      "file": "models/ai_optimization/benchmark/mlp_fold3.joblib",
+      "kind": "joblib_internal",
+      "status": "PASS",
+      "text_fields": 265
+    },
+    {
+      "file": "models/ai_optimization/benchmark/mlp_fold4.joblib",
+      "kind": "joblib_internal",
+      "status": "PASS",
+      "text_fields": 266
+    },
+    {
+      "file": "models/ai_optimization/benchmark/mlp_fold5.joblib",
+      "kind": "joblib_internal",
+      "status": "PASS",
+      "text_fields": 266
+    },
+    {
+      "file": "models/ai_optimization/benchmark/one_hot_ridge_baseline_fold1.joblib",
+      "kind": "joblib_internal",
+      "status": "PASS",
+      "text_fields": 179
+    },
+    {
+      "file": "models/ai_optimization/benchmark/one_hot_ridge_baseline_fold2.joblib",
+      "kind": "joblib_internal",
+      "status": "PASS",
+      "text_fields": 179
+    },
+    {
+      "file": "models/ai_optimization/benchmark/one_hot_ridge_baseline_fold3.joblib",
+      "kind": "joblib_internal",
+      "status": "PASS",
+      "text_fields": 179
+    },
+    {
+      "file": "models/ai_optimization/benchmark/one_hot_ridge_baseline_fold4.joblib",
+      "kind": "joblib_internal",
+      "status": "PASS",
+      "text_fields": 180
+    },
+    {
+      "file": "models/ai_optimization/benchmark/one_hot_ridge_baseline_fold5.joblib",
+      "kind": "joblib_internal",
+      "status": "PASS",
+      "text_fields": 180
+    },
+    {
+      "file": "models/ai_optimization/benchmark/random_forest_fold1.joblib",
+      "kind": "joblib_internal",
+      "status": "PASS",
+      "text_fields": 4084
+    },
+    {
+      "file": "models/ai_optimization/benchmark/random_forest_fold2.joblib",
+      "kind": "joblib_internal",
+      "status": "PASS",
+      "text_fields": 4084
+    },
+    {
+      "file": "models/ai_optimization/benchmark/random_forest_fold3.joblib",
+      "kind": "joblib_internal",
+      "status": "PASS",
+      "text_fields": 4084
+    },
+    {
+      "file": "models/ai_optimization/benchmark/random_forest_fold4.joblib",
+      "kind": "joblib_internal",
+      "status": "PASS",
+      "text_fields": 4085
+    },
+    {
+      "file": "models/ai_optimization/benchmark/random_forest_fold5.joblib",
+      "kind": "joblib_internal",
+      "status": "PASS",
+      "text_fields": 4085
+    },
+    {
+      "file": "models/ai_optimization/benchmark/ridge_fold1.joblib",
+      "kind": "joblib_internal",
+      "status": "PASS",
+      "text_fields": 216
+    },
+    {
+      "file": "models/ai_optimization/benchmark/ridge_fold2.joblib",
+      "kind": "joblib_internal",
+      "status": "PASS",
+      "text_fields": 216
+    },
+    {
+      "file": "models/ai_optimization/benchmark/ridge_fold3.joblib",
+      "kind": "joblib_internal",
+      "status": "PASS",
+      "text_fields": 216
+    },
+    {
+      "file": "models/ai_optimization/benchmark/ridge_fold4.joblib",
+      "kind": "joblib_internal",
+      "status": "PASS",
+      "text_fields": 217
+    },
+    {
+      "file": "models/ai_optimization/benchmark/ridge_fold5.joblib",
+      "kind": "joblib_internal",
+      "status": "PASS",
+      "text_fields": 217
+    },
+    {
+      "file": "models/ai_optimization/benchmark/svr_fold1.joblib",
+      "kind": "joblib_internal",
+      "status": "PASS",
+      "text_fields": 243
+    },
+    {
+      "file": "models/ai_optimization/benchmark/svr_fold2.joblib",
+      "kind": "joblib_internal",
+      "status": "PASS",
+      "text_fields": 243
+    },
+    {
+      "file": "models/ai_optimization/benchmark/svr_fold3.joblib",
+      "kind": "joblib_internal",
+      "status": "PASS",
+      "text_fields": 243
+    },
+    {
+      "file": "models/ai_optimization/benchmark/svr_fold4.joblib",
+      "kind": "joblib_internal",
+      "status": "PASS",
+      "text_fields": 244
+    },
+    {
+      "file": "models/ai_optimization/benchmark/svr_fold5.joblib",
+      "kind": "joblib_internal",
+      "status": "PASS",
+      "text_fields": 244
+    },
+    {
+      "file": "models/ai_optimization/benchmark/tabpfn_training_context_fold1.npz",
+      "kind": "NPZ_internal",
+      "status": "PASS",
+      "text_fields": 2
+    },
+    {
+      "file": "models/ai_optimization/benchmark/tabpfn_training_context_fold2.npz",
+      "kind": "NPZ_internal",
+      "status": "PASS",
+      "text_fields": 2
+    },
+    {
+      "file": "models/ai_optimization/benchmark/tabpfn_training_context_fold3.npz",
+      "kind": "NPZ_internal",
+      "status": "PASS",
+      "text_fields": 2
+    },
+    {
+      "file": "models/ai_optimization/benchmark/tabpfn_training_context_fold4.npz",
+      "kind": "NPZ_internal",
+      "status": "PASS",
+      "text_fields": 2
+    },
+    {
+      "file": "models/ai_optimization/benchmark/tabpfn_training_context_fold5.npz",
+      "kind": "NPZ_internal",
+      "status": "PASS",
+      "text_fields": 2
+    },
+    {
+      "file": "models/ai_optimization/design/checkpoint/config.json",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "models/ai_optimization/design/checkpoint/configuration_hyena.py",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "models/ai_optimization/design/checkpoint/model.safetensors",
+      "kind": "safetensors_header",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "models/ai_optimization/design/checkpoint/modeling_hyena.py",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "models/ai_optimization/design/checkpoint/source_manifest.json",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "models/ai_optimization/design/checkpoint/special_tokens_map.json",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "models/ai_optimization/design/checkpoint/tokenization_hyena.py",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "models/ai_optimization/design/checkpoint/tokenizer_config.json",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "models/ai_optimization/design/historical_hyena_count.joblib",
+      "kind": "joblib_internal",
+      "status": "PASS",
+      "text_fields": 137
+    },
+    {
+      "file": "models/ai_optimization/design/historical_mlp_metadata.json",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "models/ai_optimization/design/historical_mlp_weights.npz",
+      "kind": "NPZ_internal",
+      "status": "PASS",
+      "text_fields": 9
+    },
+    {
+      "file": "models/MODEL_CARD.md",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "models/transport/MODEL_CARD.md",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "models/virtual_screening/MODEL_CARD.md",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "predict.py",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "README.md",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "requirements-full.txt",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "requirements-inference.txt",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "requirements.txt",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "results/ai_optimization/benchmark/fit_gap_summary.csv",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "results/ai_optimization/benchmark/fold_metrics.csv",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "results/ai_optimization/benchmark/metrics.csv",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "results/ai_optimization/benchmark/OOF_summary.csv",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "results/ai_optimization/benchmark/outer_test_predictions.csv",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "results/ai_optimization/benchmark/predictions.csv",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "results/ai_optimization/benchmark/training_fit_predictions.csv",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "results/ai_optimization/design/historical_scored_pool.csv",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "results/ai_optimization/design/historical_scores_84_ranked.csv",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "results/ai_optimization/design/historical_selected_84.csv",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "results/ai_optimization/submission_preview/candidate_scores.csv",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "results/ai_optimization/submission_preview/results.csv",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "results/ai_optimization/submission_preview/run.json",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "results/ai_optimization/validation_runs/design/pool_scores.csv",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "results/ai_optimization/validation_runs/design/results.csv",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "results/ai_optimization/validation_runs/design/selected_candidates.csv",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "results/ai_optimization/validation_runs/predict/candidate_scores.csv",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "results/ai_optimization/validation_runs/predict/results.csv",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "results/ai_optimization/validation_runs/predict/run.json",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "results/transport/depth_profiles.csv",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "results/transport/depth_time_heatmap.csv",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "results/transport/images/Fig02_Model_and_Window.png",
+      "kind": "PNG_metadata",
+      "status": "PASS",
+      "text_fields": 2
+    },
+    {
+      "file": "results/transport/images/Fig02_Model_and_Window.svg",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "results/transport/images/Fig03_Application_Exposure.png",
+      "kind": "PNG_metadata",
+      "status": "PASS",
+      "text_fields": 2
+    },
+    {
+      "file": "results/transport/images/Fig03_Application_Exposure.svg",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "results/transport/images/Fig04_Depth_and_Delayed_Exposure_Heatmap.png",
+      "kind": "PNG_metadata",
+      "status": "PASS",
+      "text_fields": 2
+    },
+    {
+      "file": "results/transport/images/Fig04_Depth_and_Delayed_Exposure_Heatmap.svg",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "results/transport/images/Fig05_Uptake_and_Contact.png",
+      "kind": "PNG_metadata",
+      "status": "PASS",
+      "text_fields": 2
+    },
+    {
+      "file": "results/transport/images/Fig05_Uptake_and_Contact.svg",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "results/transport/layer_retention.csv",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "results/transport/summary.json",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "results/transport/timeseries.csv",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "results/transport/uptake_sensitivity.csv",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "results/virtual_screening/synthetic_example/structures/SYN001.pdb",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "results/virtual_screening/synthetic_example/structures/SYN002.pdb",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "results/virtual_screening/synthetic_example/SYNTHETIC_EXAMPLE.txt",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "results/virtual_screening/synthetic_example/synthetic_results.csv",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "screen.py",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "src/__init__.py",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "src/ai_optimization/benchmark/evaluate_models.py",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "src/ai_optimization/benchmark/layout.py",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "src/ai_optimization/benchmark/plot_all7.py",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "src/ai_optimization/benchmark/README.md",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "src/ai_optimization/benchmark/requirements.txt",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "src/ai_optimization/benchmark/train_all7.py",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "src/ai_optimization/benchmark/verify_all7.py",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "src/ai_optimization/DATA_SOURCES.md",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "src/ai_optimization/design/common.py",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "src/ai_optimization/design/generate_candidates.py",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "src/ai_optimization/design/hyena_features.py",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "src/ai_optimization/design/mutation_design.py",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "src/ai_optimization/design/predict.py",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "src/ai_optimization/design/README.md",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "src/ai_optimization/design/score_candidates.py",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "src/ai_optimization/design/select_candidates.py",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "src/ai_optimization/design/smoke_check.py",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "src/ai_optimization/design/train_historical_mlp.py",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "src/ai_optimization/design.py",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "src/ai_optimization/layout.py",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "src/ai_optimization/MODEL_CARD.md",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "src/ai_optimization/predict.py",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "src/ai_optimization/README.md",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "src/ai_optimization/requirements-full.txt",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "src/ai_optimization/requirements.txt",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "src/ai_optimization/SUBMISSION_CHECKLIST.md",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "src/ai_optimization/THIRD_PARTY_NOTICES.md",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "src/ai_optimization/train.py",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "src/ai_optimization/verify_package.py",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "src/submission_runtime.py",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "src/transport/figure_style.py",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "src/transport/model.py",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "src/transport/physics.py",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "src/transport/plot_depth_heatmap.py",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "src/transport/README.md",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "src/transport/requirements.txt",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "src/transport/run_model.py",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "src/transport/verify_results.py",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "src/virtual_screening/demo.py",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "src/virtual_screening/predict.py",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "src/virtual_screening/README.md",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "src/virtual_screening/screen.py",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "src/virtual_screening/self_test.py",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "src/virtual_screening/src/bootstrap_screen.py",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "src/virtual_screening/src/chemistry_geometry_checks.py",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "src/virtual_screening/src/execute_pipeline.py",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "src/virtual_screening/src/finalize_report.py",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "src/virtual_screening/src/prepare_library.py",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "src/virtual_screening/src/rigid_conformer_fallback.py",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "src/virtual_screening/src/run_screen.py",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "src/virtual_screening/src/test_chemistry_geometry_checks.py",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "src/virtual_screening/src/test_finalize_report.py",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "src/virtual_screening/src/test_portable.py",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "src/virtual_screening/src/test_preparation_guards.py",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "src/virtual_screening/src/test_rigid_conformer_fallback.py",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "src/virtual_screening/src/test_run_screen.py",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "SUBMISSION_CHECKLIST.md",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "train.py",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    },
+    {
+      "file": "transport.py",
+      "kind": "text",
+      "status": "PASS",
+      "text_fields": 1
+    }
+  ],
+  "findings": [],
+  "errors": [],
+  "source_files_modified": false,
+  "training_run": false
+}

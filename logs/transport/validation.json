@@ -1,0 +1,36 @@
+{
+  "status": "passed",
+  "reference_directory": "results/transport",
+  "numerical_comparison": [
+    {
+      "file": "timeseries.csv",
+      "rows": 2032,
+      "maximum_absolute_error": 3.637978807091713e-12
+    },
+    {
+      "file": "layer_retention.csv",
+      "rows": 9,
+      "maximum_absolute_error": 9.094947017729282e-13
+    },
+    {
+      "file": "depth_profiles.csv",
+      "rows": 456,
+      "maximum_absolute_error": 1.1102230246251565e-16
+    },
+    {
+      "file": "depth_time_heatmap.csv",
+      "rows": 57152,
+      "maximum_absolute_error": 1.3877787807814457e-16
+    },
+    {
+      "file": "uptake_sensitivity.csv",
+      "rows": 4,
+      "maximum_absolute_error": 0.0
+    }
+  ],
+  "physical_checks": {
+    "mass_relative": 6.991177266398244e-16,
+    "min_state": 0.0,
+    "input_after_removal": 0.0
+  }
+}

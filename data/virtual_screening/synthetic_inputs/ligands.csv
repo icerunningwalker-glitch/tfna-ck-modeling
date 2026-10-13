@@ -1,0 +1,3 @@
+﻿identifier,name,pdbqt,status,cas,formula,molecular_weight,smiles,detail
+SYN001,SYNTHETIC fixture SYN001,SYN001.pdbqt,prepared,,,,CO,Toy pipeline fixture; no biological inference
+SYN002,SYNTHETIC fixture SYN002,SYN002.pdbqt,prepared,,,,CN,Toy pipeline fixture; no biological inference

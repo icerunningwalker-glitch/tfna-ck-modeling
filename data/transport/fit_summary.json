@@ -1,0 +1,13 @@
+{
+  "follicle_viscosity_ratio": 691.8079913260484,
+  "wall_P_ref_cm_h": 2.289443694622724e-05,
+  "gain": 20605.519746006972,
+  "train_rmse": 4.781625322136618,
+  "withheld_rmse": 1.4311882289630882,
+  "n_training": 16,
+  "n_withheld": 5,
+  "internalization_hazard_h": 0.07700660339137827,
+  "cell_delay_h": 2.0,
+  "cell_amplitude": 66.59660777902475,
+  "interpretation": "Published 24 h human explant data constrain effective lumen resistance and lateral wall permeability"
+}

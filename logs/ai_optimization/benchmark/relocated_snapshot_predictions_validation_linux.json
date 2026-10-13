@@ -1,0 +1,220 @@
+{
+  "status": "passed",
+  "models": 7,
+  "model_snapshots": 35,
+  "checked_OOF_predictions": 861,
+  "no_training": true,
+  "TabPFN": "Saved prediction arithmetic is checked by verify_all7.py; checkpoint inference not executed.",
+  "checks": [
+    {
+      "model": "MLP",
+      "fold": 1,
+      "n": 25,
+      "maximum_absolute_difference": 6.106226635438361e-16
+    },
+    {
+      "model": "MLP",
+      "fold": 2,
+      "n": 25,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "model": "MLP",
+      "fold": 3,
+      "n": 25,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "model": "MLP",
+      "fold": 4,
+      "n": 24,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "model": "MLP",
+      "fold": 5,
+      "n": 24,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "model": "SVR",
+      "fold": 1,
+      "n": 25,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "model": "SVR",
+      "fold": 2,
+      "n": 25,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "model": "SVR",
+      "fold": 3,
+      "n": 25,
+      "maximum_absolute_difference": 4.440892098500626e-16
+    },
+    {
+      "model": "SVR",
+      "fold": 4,
+      "n": 24,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "model": "SVR",
+      "fold": 5,
+      "n": 24,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "model": "Ridge",
+      "fold": 1,
+      "n": 25,
+      "maximum_absolute_difference": 1.1102230246251565e-16
+    },
+    {
+      "model": "Ridge",
+      "fold": 2,
+      "n": 25,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "model": "Ridge",
+      "fold": 3,
+      "n": 25,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "model": "Ridge",
+      "fold": 4,
+      "n": 24,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "model": "Ridge",
+      "fold": 5,
+      "n": 24,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "model": "Random forest",
+      "fold": 1,
+      "n": 25,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "model": "Random forest",
+      "fold": 2,
+      "n": 25,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "model": "Random forest",
+      "fold": 3,
+      "n": 25,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "model": "Random forest",
+      "fold": 4,
+      "n": 24,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "model": "Random forest",
+      "fold": 5,
+      "n": 24,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "model": "ExtraTrees",
+      "fold": 1,
+      "n": 25,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "model": "ExtraTrees",
+      "fold": 2,
+      "n": 25,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "model": "ExtraTrees",
+      "fold": 3,
+      "n": 25,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "model": "ExtraTrees",
+      "fold": 4,
+      "n": 24,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "model": "ExtraTrees",
+      "fold": 5,
+      "n": 24,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "model": "GPR",
+      "fold": 1,
+      "n": 25,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "model": "GPR",
+      "fold": 2,
+      "n": 25,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "model": "GPR",
+      "fold": 3,
+      "n": 25,
+      "maximum_absolute_difference": 5.551115123125783e-15
+    },
+    {
+      "model": "GPR",
+      "fold": 4,
+      "n": 24,
+      "maximum_absolute_difference": 3.3306690738754696e-15
+    },
+    {
+      "model": "GPR",
+      "fold": 5,
+      "n": 24,
+      "maximum_absolute_difference": 1.7763568394002505e-15
+    },
+    {
+      "model": "One-hot Ridge baseline",
+      "fold": 1,
+      "n": 25,
+      "maximum_absolute_difference": 5.551115123125783e-17
+    },
+    {
+      "model": "One-hot Ridge baseline",
+      "fold": 2,
+      "n": 25,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "model": "One-hot Ridge baseline",
+      "fold": 3,
+      "n": 25,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "model": "One-hot Ridge baseline",
+      "fold": 4,
+      "n": 24,
+      "maximum_absolute_difference": 1.1102230246251565e-16
+    },
+    {
+      "model": "One-hot Ridge baseline",
+      "fold": 5,
+      "n": 24,
+      "maximum_absolute_difference": 0.0
+    }
+  ]
+}

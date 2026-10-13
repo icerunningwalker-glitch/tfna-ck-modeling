@@ -1,0 +1,434 @@
+{
+  "status": "PASS",
+  "constructs": 84,
+  "unique_constructs": 84,
+  "all_fasta_and_tables_agree": true,
+  "all_sequence_constraints_pass": true,
+  "all_paired_mutation_counts_agree": true,
+  "cached_local_prediction_max_absolute_error": 0.0,
+  "construct_score_max_absolute_error": 8.881784197001252e-16,
+  "original_model_sha256": "7f84908119a43d0083772759f842c72ce69a77ede80f6602e879d0a5e47c57ae",
+  "no_new_generation_training_docking_or_MD": true,
+  "checks": [
+    {
+      "candidate_id": "WT",
+      "score_PROXY": 3.0342441208075357,
+      "absolute_error": 0.0
+    },
+    {
+      "candidate_id": "Opt1",
+      "score_PROXY": 4.935740742012297,
+      "absolute_error": 0.0
+    },
+    {
+      "candidate_id": "Opt2",
+      "score_PROXY": 3.9433063607241503,
+      "absolute_error": 0.0
+    },
+    {
+      "candidate_id": "Opt3",
+      "score_PROXY": 4.935740742012297,
+      "absolute_error": 0.0
+    },
+    {
+      "candidate_id": "P1_01",
+      "score_PROXY": 4.2373366730063236,
+      "absolute_error": 0.0
+    },
+    {
+      "candidate_id": "P1_02",
+      "score_PROXY": 3.8973676813646305,
+      "absolute_error": 0.0
+    },
+    {
+      "candidate_id": "P1_03",
+      "score_PROXY": 3.882356642794227,
+      "absolute_error": 0.0
+    },
+    {
+      "candidate_id": "P1_04",
+      "score_PROXY": 3.7675192808103746,
+      "absolute_error": 4.440892098500626e-16
+    },
+    {
+      "candidate_id": "P1_05",
+      "score_PROXY": 3.706198692682857,
+      "absolute_error": 0.0
+    },
+    {
+      "candidate_id": "P1_06",
+      "score_PROXY": 3.704303689383508,
+      "absolute_error": 0.0
+    },
+    {
+      "candidate_id": "P1_07",
+      "score_PROXY": 3.674089875408441,
+      "absolute_error": 0.0
+    },
+    {
+      "candidate_id": "P1_08",
+      "score_PROXY": 3.6735298601417177,
+      "absolute_error": 0.0
+    },
+    {
+      "candidate_id": "P1_09",
+      "score_PROXY": 3.6689025628342105,
+      "absolute_error": 0.0
+    },
+    {
+      "candidate_id": "P1_10",
+      "score_PROXY": 3.628754618718898,
+      "absolute_error": 0.0
+    },
+    {
+      "candidate_id": "P1_11",
+      "score_PROXY": 3.615362928562247,
+      "absolute_error": 0.0
+    },
+    {
+      "candidate_id": "P1_12",
+      "score_PROXY": 3.6112224450454136,
+      "absolute_error": 0.0
+    },
+    {
+      "candidate_id": "P1_13",
+      "score_PROXY": 3.587392810997228,
+      "absolute_error": 0.0
+    },
+    {
+      "candidate_id": "P1_14",
+      "score_PROXY": 3.5662370277430533,
+      "absolute_error": 0.0
+    },
+    {
+      "candidate_id": "P1_15",
+      "score_PROXY": 3.561327960071488,
+      "absolute_error": 0.0
+    },
+    {
+      "candidate_id": "P1_16",
+      "score_PROXY": 3.5592872155395385,
+      "absolute_error": 0.0
+    },
+    {
+      "candidate_id": "P1_17",
+      "score_PROXY": 3.548346069423149,
+      "absolute_error": 4.440892098500626e-16
+    },
+    {
+      "candidate_id": "P1_18",
+      "score_PROXY": 3.531466138775945,
+      "absolute_error": 0.0
+    },
+    {
+      "candidate_id": "P1_19",
+      "score_PROXY": 3.5230231047086065,
+      "absolute_error": 4.440892098500626e-16
+    },
+    {
+      "candidate_id": "P1_20",
+      "score_PROXY": 3.498076379799727,
+      "absolute_error": 0.0
+    },
+    {
+      "candidate_id": "P2_01",
+      "score_PROXY": 4.385953547955326,
+      "absolute_error": 0.0
+    },
+    {
+      "candidate_id": "P2_02",
+      "score_PROXY": 4.279643018907836,
+      "absolute_error": 0.0
+    },
+    {
+      "candidate_id": "P2_03",
+      "score_PROXY": 4.153252008298838,
+      "absolute_error": 0.0
+    },
+    {
+      "candidate_id": "P2_04",
+      "score_PROXY": 4.135282866958026,
+      "absolute_error": 0.0
+    },
+    {
+      "candidate_id": "P2_05",
+      "score_PROXY": 4.128695535537446,
+      "absolute_error": 0.0
+    },
+    {
+      "candidate_id": "P2_06",
+      "score_PROXY": 4.064460335508453,
+      "absolute_error": 8.881784197001252e-16
+    },
+    {
+      "candidate_id": "P2_07",
+      "score_PROXY": 4.062441057825437,
+      "absolute_error": 8.881784197001252e-16
+    },
+    {
+      "candidate_id": "P2_08",
+      "score_PROXY": 4.042288307493426,
+      "absolute_error": 0.0
+    },
+    {
+      "candidate_id": "P2_09",
+      "score_PROXY": 4.036907941803668,
+      "absolute_error": 0.0
+    },
+    {
+      "candidate_id": "P2_10",
+      "score_PROXY": 3.95503212136637,
+      "absolute_error": 0.0
+    },
+    {
+      "candidate_id": "P2_11",
+      "score_PROXY": 3.9449224457282845,
+      "absolute_error": 0.0
+    },
+    {
+      "candidate_id": "P2_12",
+      "score_PROXY": 3.93538587674821,
+      "absolute_error": 0.0
+    },
+    {
+      "candidate_id": "P2_13",
+      "score_PROXY": 3.9317570820823655,
+      "absolute_error": 4.440892098500626e-16
+    },
+    {
+      "candidate_id": "P2_14",
+      "score_PROXY": 3.9201310541371983,
+      "absolute_error": 0.0
+    },
+    {
+      "candidate_id": "P2_15",
+      "score_PROXY": 3.91946304484502,
+      "absolute_error": 0.0
+    },
+    {
+      "candidate_id": "P2_16",
+      "score_PROXY": 3.91285766456563,
+      "absolute_error": 0.0
+    },
+    {
+      "candidate_id": "P2_17",
+      "score_PROXY": 3.9071205892034957,
+      "absolute_error": 0.0
+    },
+    {
+      "candidate_id": "P2_18",
+      "score_PROXY": 3.8447842052830374,
+      "absolute_error": 4.440892098500626e-16
+    },
+    {
+      "candidate_id": "P2_19",
+      "score_PROXY": 3.8425600943766898,
+      "absolute_error": 4.440892098500626e-16
+    },
+    {
+      "candidate_id": "P2_20",
+      "score_PROXY": 3.8349021585408263,
+      "absolute_error": 0.0
+    },
+    {
+      "candidate_id": "P3_01",
+      "score_PROXY": 4.526791019159237,
+      "absolute_error": 0.0
+    },
+    {
+      "candidate_id": "P3_02",
+      "score_PROXY": 4.274670342907372,
+      "absolute_error": 0.0
+    },
+    {
+      "candidate_id": "P3_03",
+      "score_PROXY": 4.247751297958267,
+      "absolute_error": 0.0
+    },
+    {
+      "candidate_id": "P3_04",
+      "score_PROXY": 4.23122835636325,
+      "absolute_error": 8.881784197001252e-16
+    },
+    {
+      "candidate_id": "P3_05",
+      "score_PROXY": 4.221489789794,
+      "absolute_error": 0.0
+    },
+    {
+      "candidate_id": "P3_06",
+      "score_PROXY": 4.209584326939756,
+      "absolute_error": 0.0
+    },
+    {
+      "candidate_id": "P3_07",
+      "score_PROXY": 4.082483447730862,
+      "absolute_error": 8.881784197001252e-16
+    },
+    {
+      "candidate_id": "P3_08",
+      "score_PROXY": 4.075073382896685,
+      "absolute_error": 0.0
+    },
+    {
+      "candidate_id": "P3_09",
+      "score_PROXY": 4.050990150547207,
+      "absolute_error": 0.0
+    },
+    {
+      "candidate_id": "P3_10",
+      "score_PROXY": 4.046773534532766,
+      "absolute_error": 0.0
+    },
+    {
+      "candidate_id": "P3_11",
+      "score_PROXY": 4.014453784086428,
+      "absolute_error": 0.0
+    },
+    {
+      "candidate_id": "P3_12",
+      "score_PROXY": 4.002827946028385,
+      "absolute_error": 0.0
+    },
+    {
+      "candidate_id": "P3_13",
+      "score_PROXY": 3.955695684185111,
+      "absolute_error": 0.0
+    },
+    {
+      "candidate_id": "P3_14",
+      "score_PROXY": 3.9433063607241503,
+      "absolute_error": 0.0
+    },
+    {
+      "candidate_id": "P3_15",
+      "score_PROXY": 3.9351376924875536,
+      "absolute_error": 4.440892098500626e-16
+    },
+    {
+      "candidate_id": "P3_16",
+      "score_PROXY": 3.9275737931943824,
+      "absolute_error": 0.0
+    },
+    {
+      "candidate_id": "P3_17",
+      "score_PROXY": 3.9136867627406327,
+      "absolute_error": 4.440892098500626e-16
+    },
+    {
+      "candidate_id": "P3_18",
+      "score_PROXY": 3.908852232106394,
+      "absolute_error": 4.440892098500626e-16
+    },
+    {
+      "candidate_id": "P3_19",
+      "score_PROXY": 3.8972102624967038,
+      "absolute_error": 4.440892098500626e-16
+    },
+    {
+      "candidate_id": "P3_20",
+      "score_PROXY": 3.891839858866922,
+      "absolute_error": 0.0
+    },
+    {
+      "candidate_id": "P4_01",
+      "score_PROXY": 5.1548075810563665,
+      "absolute_error": 0.0
+    },
+    {
+      "candidate_id": "P4_02",
+      "score_PROXY": 4.857635899300871,
+      "absolute_error": 0.0
+    },
+    {
+      "candidate_id": "P4_03",
+      "score_PROXY": 4.6170825129047675,
+      "absolute_error": 0.0
+    },
+    {
+      "candidate_id": "P4_04",
+      "score_PROXY": 4.605142473749936,
+      "absolute_error": 0.0
+    },
+    {
+      "candidate_id": "P4_05",
+      "score_PROXY": 4.532995588440292,
+      "absolute_error": 0.0
+    },
+    {
+      "candidate_id": "P4_06",
+      "score_PROXY": 4.40891548890669,
+      "absolute_error": 8.881784197001252e-16
+    },
+    {
+      "candidate_id": "P4_07",
+      "score_PROXY": 4.207483861398269,
+      "absolute_error": 8.881784197001252e-16
+    },
+    {
+      "candidate_id": "P4_08",
+      "score_PROXY": 4.199914137991042,
+      "absolute_error": 0.0
+    },
+    {
+      "candidate_id": "P4_09",
+      "score_PROXY": 4.177595756681355,
+      "absolute_error": 0.0
+    },
+    {
+      "candidate_id": "P4_10",
+      "score_PROXY": 4.124786084676655,
+      "absolute_error": 0.0
+    },
+    {
+      "candidate_id": "P4_11",
+      "score_PROXY": 4.121542315968984,
+      "absolute_error": 0.0
+    },
+    {
+      "candidate_id": "P4_12",
+      "score_PROXY": 4.119773973676548,
+      "absolute_error": 0.0
+    },
+    {
+      "candidate_id": "P4_13",
+      "score_PROXY": 4.086167105964366,
+      "absolute_error": 0.0
+    },
+    {
+      "candidate_id": "P4_14",
+      "score_PROXY": 4.02018422210997,
+      "absolute_error": 0.0
+    },
+    {
+      "candidate_id": "P4_15",
+      "score_PROXY": 4.001375002058525,
+      "absolute_error": 8.881784197001252e-16
+    },
+    {
+      "candidate_id": "P4_16",
+      "score_PROXY": 3.9873265595974137,
+      "absolute_error": 0.0
+    },
+    {
+      "candidate_id": "P4_17",
+      "score_PROXY": 3.981528342847462,
+      "absolute_error": 4.440892098500626e-16
+    },
+    {
+      "candidate_id": "P4_18",
+      "score_PROXY": 3.9800206215529808,
+      "absolute_error": 4.440892098500626e-16
+    },
+    {
+      "candidate_id": "P4_19",
+      "score_PROXY": 3.978363316541561,
+      "absolute_error": 0.0
+    },
+    {
+      "candidate_id": "P4_20",
+      "score_PROXY": 3.916585091006989,
+      "absolute_error": 0.0
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "strands": {
+    "1c": "ATTTATCACCCGCCATAGTAGACGTATCACCAGGCAGTTGAGACGAACATTCCTAAGTCTGAA",
+    "2c": "ACATGCGAGGGTCCAATACCGACGATTACAGCTTGCTACACGATTCAGACTTAGGAATGTTCG",
+    "3c": "ACTACTATGGCGGGTGATAAAACGTGTAGCAAGCTGTAATCGACGGGAAGAGCATGCCCATCC",
+    "4c": "ACGGTATTGGACCCTCGCATGACTCAACTGCCTGGTGATACGAGGATGGGCATGCTCTTCCCG"
+  },
+  "edges": {
+    "E12": {
+      "strand_a": "1c",
+      "start_a": 44,
+      "strand_b": "2c",
+      "start_b": 44,
+      "length": 20
+    },
+    "E13": {
+      "strand_a": "1c",
+      "start_a": 2,
+      "strand_b": "3c",
+      "start_b": 2,
+      "length": 20
+    },
+    "E14": {
+      "strand_a": "1c",
+      "start_a": 23,
+      "strand_b": "4c",
+      "start_b": 23,
+      "length": 20
+    },
+    "E23": {
+      "strand_a": "2c",
+      "start_a": 23,
+      "strand_b": "3c",
+      "start_b": 23,
+      "length": 20
+    },
+    "E24": {
+      "strand_a": "2c",
+      "start_a": 2,
+      "strand_b": "4c",
+      "start_b": 2,
+      "length": 20
+    },
+    "E34": {
+      "strand_a": "3c",
+      "start_a": 44,
+      "strand_b": "4c",
+      "start_b": 44,
+      "length": 20
+    }
+  },
+  "junctions": {
+    "linker_positions_1based": [
+      1,
+      22,
+      43
+    ]
+  },
+  "sequence_constraints": {
+    "gc_fraction": [
+      0.3,
+      0.7
+    ],
+    "max_homopolymer": 4,
+    "max_within_strand_domain_identity": 0.75,
+    "max_unintended_complement_run": 7
+  },
+  "constraint_note": "WT contains a 7-nt nonpartner complementary run under the complete orientation audit; 7 is the baseline-derived bound for this round."
+}

@@ -1,0 +1,21 @@
+{
+  "purpose": "Packaging verification runtime; not a reconstruction of original training hardware.",
+  "python": "3.12.14",
+  "system": "Linux",
+  "machine": "x86_64",
+  "dependencies": {
+    "numpy": "2.5.2",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.0",
+    "joblib": "1.6.0",
+    "torch": "2.11.0+cu128",
+    "tabpfn": "9.0.0",
+    "threadpoolctl": "3.6.0",
+    "matplotlib": "3.11.2",
+    "pandas": "3.0.6"
+  },
+  "original_training_sklearn": "1.9.0",
+  "original_training_hardware": "not retained",
+  "original_training_elapsed_seconds": null,
+  "all_packaging_tests_no_training": true
+}

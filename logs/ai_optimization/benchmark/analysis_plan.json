@@ -1,0 +1,446 @@
+{
+  "models": [
+    "MLP",
+    "SVR",
+    "Ridge",
+    "Random forest",
+    "ExtraTrees",
+    "GPR",
+    "TabPFN"
+  ],
+  "baselines": [
+    "Training-median baseline",
+    "One-hot Ridge baseline"
+  ],
+  "seed": 20261003,
+  "split": "One fixed 5-fold shuffled outer CV, stratified on exact count labels 0, 1, 2",
+  "full_count_labels": {
+    "0": 31,
+    "1": 90,
+    "2": 2
+  },
+  "scope": "Within the existing sequence library; previously analysed data, development evaluation",
+  "target": "Uniform single-seed local sampled tight docking-site count, Vina <= -8.0 kcal/mol",
+  "preprocessing": "Variance filter, StandardScaler and fixed PCA8 fitted within each training fold; target scaler likewise",
+  "tuning": "3 family-grouped inner folds inside each outer training set; minimum mean continuous nonnegative count MAE",
+  "outer_and_inner_folds": [
+    {
+      "outer_fold": 1,
+      "training_n": 98,
+      "test_n": 25,
+      "training_labels": {
+        "0": 24,
+        "1": 72,
+        "2": 2
+      },
+      "test_labels": {
+        "1": 18,
+        "0": 7
+      },
+      "outer_family_overlap": 2,
+      "inner_folds": [
+        {
+          "inner_fold": 1,
+          "training_n": 48,
+          "validation_n": 50,
+          "family_overlap": 0,
+          "training_labels": {
+            "0": 22,
+            "1": 25,
+            "2": 1
+          },
+          "validation_labels": {
+            "1": 47,
+            "0": 2,
+            "2": 1
+          }
+        },
+        {
+          "inner_fold": 2,
+          "training_n": 74,
+          "validation_n": 24,
+          "family_overlap": 0,
+          "training_labels": {
+            "1": 61,
+            "0": 11,
+            "2": 2
+          },
+          "validation_labels": {
+            "0": 13,
+            "1": 11
+          }
+        },
+        {
+          "inner_fold": 3,
+          "training_n": 74,
+          "validation_n": 24,
+          "family_overlap": 0,
+          "training_labels": {
+            "0": 15,
+            "1": 58,
+            "2": 1
+          },
+          "validation_labels": {
+            "1": 14,
+            "0": 9,
+            "2": 1
+          }
+        }
+      ]
+    },
+    {
+      "outer_fold": 2,
+      "training_n": 98,
+      "test_n": 25,
+      "training_labels": {
+        "1": 72,
+        "0": 25,
+        "2": 1
+      },
+      "test_labels": {
+        "0": 6,
+        "1": 18,
+        "2": 1
+      },
+      "outer_family_overlap": 4,
+      "inner_folds": [
+        {
+          "inner_fold": 1,
+          "training_n": 49,
+          "validation_n": 49,
+          "family_overlap": 0,
+          "training_labels": {
+            "1": 25,
+            "0": 23,
+            "2": 1
+          },
+          "validation_labels": {
+            "1": 47,
+            "0": 2
+          }
+        },
+        {
+          "inner_fold": 2,
+          "training_n": 73,
+          "validation_n": 25,
+          "family_overlap": 0,
+          "training_labels": {
+            "1": 61,
+            "0": 11,
+            "2": 1
+          },
+          "validation_labels": {
+            "1": 11,
+            "0": 14
+          }
+        },
+        {
+          "inner_fold": 3,
+          "training_n": 74,
+          "validation_n": 24,
+          "family_overlap": 0,
+          "training_labels": {
+            "1": 58,
+            "0": 16
+          },
+          "validation_labels": {
+            "1": 14,
+            "0": 9,
+            "2": 1
+          }
+        }
+      ]
+    },
+    {
+      "outer_fold": 3,
+      "training_n": 98,
+      "test_n": 25,
+      "training_labels": {
+        "0": 25,
+        "1": 72,
+        "2": 1
+      },
+      "test_labels": {
+        "1": 18,
+        "0": 6,
+        "2": 1
+      },
+      "outer_family_overlap": 5,
+      "inner_folds": [
+        {
+          "inner_fold": 1,
+          "training_n": 48,
+          "validation_n": 50,
+          "family_overlap": 0,
+          "training_labels": {
+            "0": 22,
+            "1": 26
+          },
+          "validation_labels": {
+            "1": 46,
+            "0": 3,
+            "2": 1
+          }
+        },
+        {
+          "inner_fold": 2,
+          "training_n": 74,
+          "validation_n": 24,
+          "family_overlap": 0,
+          "training_labels": {
+            "0": 18,
+            "1": 55,
+            "2": 1
+          },
+          "validation_labels": {
+            "1": 17,
+            "0": 7
+          }
+        },
+        {
+          "inner_fold": 3,
+          "training_n": 74,
+          "validation_n": 24,
+          "family_overlap": 0,
+          "training_labels": {
+            "1": 63,
+            "0": 10,
+            "2": 1
+          },
+          "validation_labels": {
+            "0": 15,
+            "1": 9
+          }
+        }
+      ]
+    },
+    {
+      "outer_fold": 4,
+      "training_n": 99,
+      "test_n": 24,
+      "training_labels": {
+        "0": 25,
+        "1": 72,
+        "2": 2
+      },
+      "test_labels": {
+        "1": 18,
+        "0": 6
+      },
+      "outer_family_overlap": 5,
+      "inner_folds": [
+        {
+          "inner_fold": 1,
+          "training_n": 48,
+          "validation_n": 51,
+          "family_overlap": 0,
+          "training_labels": {
+            "0": 23,
+            "1": 24,
+            "2": 1
+          },
+          "validation_labels": {
+            "1": 48,
+            "0": 2,
+            "2": 1
+          }
+        },
+        {
+          "inner_fold": 2,
+          "training_n": 75,
+          "validation_n": 24,
+          "family_overlap": 0,
+          "training_labels": {
+            "0": 15,
+            "1": 59,
+            "2": 1
+          },
+          "validation_labels": {
+            "1": 13,
+            "0": 10,
+            "2": 1
+          }
+        },
+        {
+          "inner_fold": 3,
+          "training_n": 75,
+          "validation_n": 24,
+          "family_overlap": 0,
+          "training_labels": {
+            "1": 61,
+            "0": 12,
+            "2": 2
+          },
+          "validation_labels": {
+            "0": 13,
+            "1": 11
+          }
+        }
+      ]
+    },
+    {
+      "outer_fold": 5,
+      "training_n": 99,
+      "test_n": 24,
+      "training_labels": {
+        "0": 25,
+        "1": 72,
+        "2": 2
+      },
+      "test_labels": {
+        "1": 18,
+        "0": 6
+      },
+      "outer_family_overlap": 3,
+      "inner_folds": [
+        {
+          "inner_fold": 1,
+          "training_n": 51,
+          "validation_n": 48,
+          "family_overlap": 0,
+          "training_labels": {
+            "0": 22,
+            "1": 28,
+            "2": 1
+          },
+          "validation_labels": {
+            "1": 44,
+            "0": 3,
+            "2": 1
+          }
+        },
+        {
+          "inner_fold": 2,
+          "training_n": 73,
+          "validation_n": 26,
+          "family_overlap": 0,
+          "training_labels": {
+            "1": 56,
+            "0": 16,
+            "2": 1
+          },
+          "validation_labels": {
+            "0": 9,
+            "1": 16,
+            "2": 1
+          }
+        },
+        {
+          "inner_fold": 3,
+          "training_n": 74,
+          "validation_n": 25,
+          "family_overlap": 0,
+          "training_labels": {
+            "0": 12,
+            "1": 60,
+            "2": 2
+          },
+          "validation_labels": {
+            "1": 12,
+            "0": 13
+          }
+        }
+      ]
+    }
+  ],
+  "pca_components": 8,
+  "classification_threshold": 0.5,
+  "frozen_HyenaDNA_encoder": true,
+  "grids": {
+    "MLP": {
+      "hidden_layer_sizes": [
+        [
+          2
+        ],
+        [
+          4
+        ],
+        [
+          8
+        ]
+      ],
+      "alpha": [
+        1,
+        10,
+        100
+      ]
+    },
+    "SVR": {
+      "C": [
+        0.5,
+        2,
+        10
+      ],
+      "epsilon": [
+        0.05,
+        0.15
+      ]
+    },
+    "Ridge": {
+      "alpha": [
+        1,
+        10,
+        100,
+        1000
+      ]
+    },
+    "Random forest": {
+      "max_depth": [
+        3,
+        6,
+        null
+      ],
+      "min_samples_leaf": [
+        3,
+        6
+      ],
+      "max_features": [
+        0.5,
+        1.0
+      ]
+    },
+    "ExtraTrees": {
+      "max_depth": [
+        3,
+        6,
+        null
+      ],
+      "min_samples_leaf": [
+        3,
+        6
+      ],
+      "max_features": [
+        0.5,
+        1.0
+      ]
+    },
+    "GPR": {
+      "alpha": [
+        0.01,
+        0.1,
+        1.0
+      ]
+    },
+    "TabPFN": {},
+    "One-hot Ridge baseline": {
+      "alpha": [
+        1,
+        10,
+        100,
+        1000
+      ]
+    }
+  },
+  "TabPFN": "Offline V2, pretrained weights frozen; fit uses training context, no gradient fine tuning",
+  "limitations": [
+    "Related families can cross the outer split; no unseen-family generalization claim",
+    "Only two count-2 examples; they occur in two distinct outer test folds, not all five",
+    "Three unequal inner folds; their unweighted mean selects parameters",
+    "Outer folds are newly assigned but all 123 labels have already been analysed",
+    "Training-fit diagnostic averages the four in-sample outer-model predictions per sequence",
+    "Inner group CV estimates a different, harder transfer task than the within-library outer split",
+    "A local docking-site count is not docking energy or measured tFNA loading capacity"
+  ],
+  "no_new_docking": true,
+  "no_new_MD": true
+}

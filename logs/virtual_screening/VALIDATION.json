@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "python": "3.12.14",
+  "system": "Windows",
+  "test_summary": {
+    "tests_run": 28,
+    "failures": 0,
+    "errors": 0,
+    "chemistry_tests": false,
+    "optional_chemistry_skipped": true
+  },
+  "self_test_elapsed_seconds": 1.3239670999973896,
+  "demo_exit_code": 0,
+  "demo_elapsed_seconds": 0.26221410000289325,
+  "synthetic_ligands": 2,
+  "synthetic_boxes": 8,
+  "mocked_jobs": 16,
+  "candidate_table": "results/virtual_screening/synthetic_example/synthetic_results.csv",
+  "no_scientific_candidate_table_created": true,
+  "real_docking_executed": false,
+  "external_tools_installed_or_downloaded": false,
+  "executed_from_outside_project_directory": true,
+  "retained_runtime_logs_redacted": true
+}

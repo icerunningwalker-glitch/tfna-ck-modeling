@@ -1,0 +1,60 @@
+{
+  "source_module": "eight-box single-seed virtual screening",
+  "source_files": [
+    {
+      "file": "run_screen.py",
+      "sha256": "666d64afafaba05cd5a353d25ee432d28e5be197a88539606fecd8172a0252e8"
+    },
+    {
+      "file": "prepare_library.py",
+      "sha256": "6975a8601ce1c499d2a0c1b07b29d517f8f341a3dff21c7f7bf89a4b008345a9"
+    },
+    {
+      "file": "chemistry_geometry_checks.py",
+      "sha256": "a8a5217aa5af902aedfc8dd684057bf42f85a849b96917a0486c2fad27a282b5"
+    },
+    {
+      "file": "rigid_conformer_fallback.py",
+      "sha256": "c77b5a46034f50d2b7069f57c401cdeae268ca4b14b3c26e7c5314fa2a924528"
+    },
+    {
+      "file": "test_run_screen.py",
+      "sha256": "b211843ac13ab014640d2badef8f11283890d1eb177f178288f3294ea706c3e6"
+    },
+    {
+      "file": "test_preparation_guards.py",
+      "sha256": "703c72c932f7216c30e8d0fc5b1a411eea6f52078b53448877f8e6f5fb5df2b7"
+    },
+    {
+      "file": "test_finalize_report.py",
+      "sha256": "81fd210a1b635321d8cd30e6f3074fbe0a1792b1f4cb4d3acb2c5a602796dcba"
+    },
+    {
+      "file": "test_chemistry_geometry_checks.py",
+      "sha256": "d1152f5319507fdcce9b3d9dc7e81e905e60c7b289f9a10746bfe3c1a4fba412"
+    },
+    {
+      "file": "test_rigid_conformer_fallback.py",
+      "sha256": "2519f140faa18b4964d1060223e1046f77f82e68ed9b93499dfe356a7b326248"
+    },
+    {
+      "file": "bootstrap_screen.py",
+      "sha256": "bc020138f48743498cd4ccce7b3a9f9fd3bb77315a8bb9ace0094b2baa0c33aa"
+    },
+    {
+      "file": "execute_pipeline.py",
+      "sha256": "c2d75350e64c578b160c7137197523c5c17f8acb868460108c3e23c7096c7dbd"
+    },
+    {
+      "file": "finalize_report.py",
+      "sha256": "60bc202620797ead963974b257bc71db10adffd020e5baed1a87ce748648b8af"
+    }
+  ],
+  "portable_changes": [
+    "Parameterized local paths and ligand count",
+    "Portable coverage generator, orchestration and candidate exports",
+    "Preserved prediction threshold and complete-coverage rule",
+    "Synthetic demo, tests and privacy checks"
+  ],
+  "original_data_included": false
+}

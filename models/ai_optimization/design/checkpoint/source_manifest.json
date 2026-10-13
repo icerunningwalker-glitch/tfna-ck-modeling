@@ -1,0 +1,52 @@
+{
+  "repository": "LongSafari/hyenadna-tiny-1k-seqlen-hf",
+  "revision": "e8c1effa8673814e257e627d2e1eda9ea5a373f6",
+  "files": [
+    {
+      "file": "config.json",
+      "bytes": 977,
+      "sha256": "5cc6b4e96f57427a013fe9f17caf0060beafc665686d00628c49dbf3383b321e",
+      "url": "https://huggingface.co/LongSafari/hyenadna-tiny-1k-seqlen-hf/raw/e8c1effa8673814e257e627d2e1eda9ea5a373f6/config.json"
+    },
+    {
+      "file": "configuration_hyena.py",
+      "bytes": 3093,
+      "sha256": "29cb6cae67f5010e279d67349e688663043f0bd6791a09c36d96da8cac3668a6",
+      "url": "https://huggingface.co/LongSafari/hyenadna-tiny-1k-seqlen-hf/raw/e8c1effa8673814e257e627d2e1eda9ea5a373f6/configuration_hyena.py"
+    },
+    {
+      "file": "modeling_hyena.py",
+      "bytes": 22584,
+      "sha256": "d78029cacea2c9259f1293fdb50b60f90872089469185e27d5c769086c475607",
+      "url": "https://huggingface.co/LongSafari/hyenadna-tiny-1k-seqlen-hf/raw/e8c1effa8673814e257e627d2e1eda9ea5a373f6/modeling_hyena.py"
+    },
+    {
+      "file": "tokenization_hyena.py",
+      "bytes": 4057,
+      "sha256": "d424da2f794958b0360e033bbf5edc9ee4e3e3126e883093621348f07761e408",
+      "url": "https://huggingface.co/LongSafari/hyenadna-tiny-1k-seqlen-hf/raw/e8c1effa8673814e257e627d2e1eda9ea5a373f6/tokenization_hyena.py"
+    },
+    {
+      "file": "tokenizer_config.json",
+      "bytes": 1480,
+      "sha256": "b1a98c1d2f4e1a5582feffeaccfe46e160f2f8e927009b49d4676dd79e7a9694",
+      "url": "https://huggingface.co/LongSafari/hyenadna-tiny-1k-seqlen-hf/raw/e8c1effa8673814e257e627d2e1eda9ea5a373f6/tokenizer_config.json"
+    },
+    {
+      "file": "special_tokens_map.json",
+      "bytes": 971,
+      "sha256": "026831cec9f2ac5e501aa9d3a8b3a93c021aebe55813574c493e40b49ad28582",
+      "url": "https://huggingface.co/LongSafari/hyenadna-tiny-1k-seqlen-hf/raw/e8c1effa8673814e257e627d2e1eda9ea5a373f6/special_tokens_map.json"
+    },
+    {
+      "file": "model.safetensors",
+      "bytes": 1809192,
+      "sha256": "5ce2146c21e9c4baa6bddc4998fd3d029903ae84a563bf80218644082194a12d",
+      "url": "https://huggingface.co/LongSafari/hyenadna-tiny-1k-seqlen-hf/resolve/e8c1effa8673814e257e627d2e1eda9ea5a373f6/model.safetensors"
+    }
+  ],
+  "weights_frozen_for_this_analysis": true,
+  "source_url": "https://github.com/HazyResearch/hyena-dna",
+  "model_card_url": "https://huggingface.co/LongSafari/hyenadna-tiny-1k-seqlen-hf/blob/e8c1effa8673814e257e627d2e1eda9ea5a373f6/README.md",
+  "model_card_omitted": "Model card is linked rather than bundled; component license and attribution are retained in package notices."
+}

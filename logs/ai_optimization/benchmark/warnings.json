@@ -1,0 +1,127 @@
+[
+  {
+    "model": "outer_split",
+    "category": "UserWarning",
+    "message": "The least populated class in y has only 2 members, which is less than n_splits=5."
+  },
+  {
+    "model": "MLP",
+    "outer_fold": 3,
+    "category": "ConvergenceWarning",
+    "message": "lbfgs failed to converge after 2000 iteration(s) (status=1):\nSTOP: TOTAL NO. OF ITERATIONS REACHED LIMIT\n\nIncrease the number of iterations to improve the convergence (max_iter=2000).\nYou might also want to scale the data as shown in:\n    https://scikit-learn.org/stable/modules/preprocessing.html"
+  },
+  {
+    "model": "GPR",
+    "outer_fold": 1,
+    "category": "ConvergenceWarning",
+    "message": "The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 0.01. Decreasing the bound and calling fit again may find a better value."
+  },
+  {
+    "model": "GPR",
+    "outer_fold": 1,
+    "category": "ConvergenceWarning",
+    "message": "The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 0.01. Decreasing the bound and calling fit again may find a better value."
+  },
+  {
+    "model": "GPR",
+    "outer_fold": 1,
+    "category": "ConvergenceWarning",
+    "message": "The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 0.01. Decreasing the bound and calling fit again may find a better value."
+  },
+  {
+    "model": "GPR",
+    "outer_fold": 2,
+    "category": "ConvergenceWarning",
+    "message": "The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 0.01. Decreasing the bound and calling fit again may find a better value."
+  },
+  {
+    "model": "GPR",
+    "outer_fold": 2,
+    "category": "ConvergenceWarning",
+    "message": "The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 0.01. Decreasing the bound and calling fit again may find a better value."
+  },
+  {
+    "model": "GPR",
+    "outer_fold": 2,
+    "category": "ConvergenceWarning",
+    "message": "The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 0.01. Decreasing the bound and calling fit again may find a better value."
+  },
+  {
+    "model": "GPR",
+    "outer_fold": 2,
+    "category": "ConvergenceWarning",
+    "message": "The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 0.01. Decreasing the bound and calling fit again may find a better value."
+  },
+  {
+    "model": "GPR",
+    "outer_fold": 2,
+    "category": "ConvergenceWarning",
+    "message": "The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 0.01. Decreasing the bound and calling fit again may find a better value."
+  },
+  {
+    "model": "GPR",
+    "outer_fold": 3,
+    "category": "ConvergenceWarning",
+    "message": "The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 0.01. Decreasing the bound and calling fit again may find a better value."
+  },
+  {
+    "model": "GPR",
+    "outer_fold": 3,
+    "category": "ConvergenceWarning",
+    "message": "The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 0.01. Decreasing the bound and calling fit again may find a better value."
+  },
+  {
+    "model": "GPR",
+    "outer_fold": 3,
+    "category": "ConvergenceWarning",
+    "message": "The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 0.01. Decreasing the bound and calling fit again may find a better value."
+  },
+  {
+    "model": "GPR",
+    "outer_fold": 4,
+    "category": "ConvergenceWarning",
+    "message": "The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 0.01. Decreasing the bound and calling fit again may find a better value."
+  },
+  {
+    "model": "GPR",
+    "outer_fold": 4,
+    "category": "ConvergenceWarning",
+    "message": "The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 0.01. Decreasing the bound and calling fit again may find a better value."
+  },
+  {
+    "model": "GPR",
+    "outer_fold": 4,
+    "category": "ConvergenceWarning",
+    "message": "The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 0.01. Decreasing the bound and calling fit again may find a better value."
+  },
+  {
+    "model": "GPR",
+    "outer_fold": 5,
+    "category": "ConvergenceWarning",
+    "message": "The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 0.01. Decreasing the bound and calling fit again may find a better value."
+  },
+  {
+    "model": "GPR",
+    "outer_fold": 5,
+    "category": "ConvergenceWarning",
+    "message": "The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 0.01. Decreasing the bound and calling fit again may find a better value."
+  },
+  {
+    "model": "GPR",
+    "outer_fold": 5,
+    "category": "ConvergenceWarning",
+    "message": "The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 0.01. Decreasing the bound and calling fit again may find a better value."
+  },
+  {
+    "model": "GPR",
+    "outer_fold": 5,
+    "category": "ConvergenceWarning",
+    "message": "The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 0.01. Decreasing the bound and calling fit again may find a better value."
+  },
+  {
+    "model": "GPR",
+    "outer_fold": 5,
+    "category": "ConvergenceWarning",
+    "message": "The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 0.01. Decreasing the bound and calling fit again may find a better value."
+  }
+]

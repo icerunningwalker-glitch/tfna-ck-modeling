@@ -1,0 +1,121 @@
+{
+  "status": "PASS",
+  "project_version": "submission_unified_20261004",
+  "standard_directory_layout": true,
+  "root_candidate_export": {
+    "status": "PASS",
+    "candidates": 84
+  },
+  "root_complete_demo": {
+    "status": "PASS",
+    "run_version": "submission_unified_20261004",
+    "scope": "cross_module_software_demo",
+    "entries": [
+      {
+        "entry": "design.py",
+        "exit_code": 0,
+        "elapsed_seconds": 3.564072
+      },
+      {
+        "entry": "src/virtual_screening/demo.py",
+        "exit_code": 0,
+        "elapsed_seconds": 1.810275
+      },
+      {
+        "entry": "transport.py",
+        "exit_code": 0,
+        "elapsed_seconds": 11.6914
+      }
+    ],
+    "candidate_count": 84,
+    "python": "3.12.14",
+    "operating_system": "Linux",
+    "architecture": "x86_64",
+    "packages": {
+      "numpy": "2.5.2",
+      "pandas": "3.0.6",
+      "scipy": "1.18.1",
+      "scikit-learn": "1.9.0",
+      "joblib": "1.6.0",
+      "torch": "2.11.0+cu128",
+      "transformers": "4.36.2",
+      "tabpfn": "9.0.0"
+    },
+    "hostname_recorded": false,
+    "account_recorded": false,
+    "local_paths_recorded": false
+  },
+  "root_verification": {
+    "status": "PASS",
+    "actual_inference": true,
+    "model_snapshots_loaded": true,
+    "synthetic_excluded": true,
+    "new_training": false,
+    "new_real_docking": false,
+    "transport_check": "saved physical checks; full fresh simulation is recorded separately"
+  },
+  "notebook": {
+    "status": "PASS",
+    "code_cells_executed": 3,
+    "execution_mode": "Python sequential code-cell execution",
+    "elapsed_seconds": 22.713993,
+    "new_training": false,
+    "personal_paths_recorded": false
+  },
+  "transport": {
+    "status": "passed",
+    "reference_directory": "results/transport",
+    "numerical_comparison": [
+      {
+        "file": "timeseries.csv",
+        "rows": 2032,
+        "maximum_absolute_error": 3.637978807091713e-12
+      },
+      {
+        "file": "layer_retention.csv",
+        "rows": 9,
+        "maximum_absolute_error": 9.094947017729282e-13
+      },
+      {
+        "file": "depth_profiles.csv",
+        "rows": 456,
+        "maximum_absolute_error": 1.1102230246251565e-16
+      },
+      {
+        "file": "depth_time_heatmap.csv",
+        "rows": 57152,
+        "maximum_absolute_error": 1.3877787807814457e-16
+      },
+      {
+        "file": "uptake_sensitivity.csv",
+        "rows": 4,
+        "maximum_absolute_error": 0.0
+      }
+    ],
+    "physical_checks": {
+      "mass_relative": 6.991177266398244e-16,
+      "min_state": 0.0,
+      "input_after_removal": 0.0
+    }
+  },
+  "privacy": {
+    "independent_audit": "PASS",
+    "final_archive_scan": "PASS",
+    "personal_identity_fields_recorded": false,
+    "final_text_hits": 0
+  },
+  "archive_relocation": "PASS",
+  "unexecuted_scientific_operations": [
+    "retraining",
+    "real_Vina_docking",
+    "MD",
+    "new_candidate_generation"
+  ],
+  "formal_submission_open_items": [
+    "official_track_and_specific_template",
+    "original_data_redistribution_permission",
+    "TabPFN_V2_weight_and_applicable_terms",
+    "unrecorded_original_hardware_and_acquisition_timestamps"
+  ],
+  "verified_from_space_containing_directory": true
+}

@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "candidates": 84,
+  "model_version": "historical_frozen_MLP_16_hidden_20261001",
+  "run_version": "portable_20261004",
+  "new_training": false,
+  "new_docking": false,
+  "new_MD": false,
+  "official_track_confirmed": false
+}

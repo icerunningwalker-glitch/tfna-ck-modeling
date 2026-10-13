@@ -1,0 +1,2 @@
+# Lightweight offline replay; does not load pickle or require Torch.
+numpy>=2.3.5,<3

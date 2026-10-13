@@ -1,0 +1,586 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "check": "123 unique source sequences with docking seed 104729",
+      "passed": true
+    },
+    {
+      "check": "Count labels are 31/90/2",
+      "passed": true
+    },
+    {
+      "check": "Every sequence assigned once to one of five outer test folds",
+      "passed": true
+    },
+    {
+      "check": "Two count-2 sequences occupy distinct test folds",
+      "passed": true
+    },
+    {
+      "check": "All configured algorithms/baselines have unique OOF predictions",
+      "passed": true
+    },
+    {
+      "check": "4428 in-sample records, four distinct fits per model/sequence",
+      "passed": true
+    },
+    {
+      "check": "No test sequence enters its own outer training predictions",
+      "passed": true
+    },
+    {
+      "check": "All output labels match source",
+      "passed": true
+    },
+    {
+      "check": "2214 unique combined diagnostic/OOF rows",
+      "passed": true
+    },
+    {
+      "check": "Combined test is exact OOF and train is exact four-fit arithmetic mean",
+      "passed": true
+    },
+    {
+      "check": "18 summary and 90 fold metric rows",
+      "passed": true
+    },
+    {
+      "check": "MLP/train/pooled: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "MLP/test/pooled: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "SVR/train/pooled: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "SVR/test/pooled: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "Ridge/train/pooled: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "Ridge/test/pooled: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "Random forest/train/pooled: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "Random forest/test/pooled: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "ExtraTrees/train/pooled: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "ExtraTrees/test/pooled: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "GPR/train/pooled: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "GPR/test/pooled: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "TabPFN/train/pooled: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "TabPFN/test/pooled: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "Training-median baseline/train/pooled: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "Training-median baseline/test/pooled: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "One-hot Ridge baseline/train/pooled: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "One-hot Ridge baseline/test/pooled: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "MLP/train/1: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "MLP/test/1: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "MLP/train/2: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "MLP/test/2: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "MLP/train/3: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "MLP/test/3: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "MLP/train/4: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "MLP/test/4: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "MLP/train/5: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "MLP/test/5: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "SVR/train/1: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "SVR/test/1: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "SVR/train/2: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "SVR/test/2: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "SVR/train/3: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "SVR/test/3: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "SVR/train/4: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "SVR/test/4: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "SVR/train/5: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "SVR/test/5: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "Ridge/train/1: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "Ridge/test/1: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "Ridge/train/2: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "Ridge/test/2: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "Ridge/train/3: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "Ridge/test/3: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "Ridge/train/4: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "Ridge/test/4: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "Ridge/train/5: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "Ridge/test/5: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "Random forest/train/1: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "Random forest/test/1: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "Random forest/train/2: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "Random forest/test/2: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "Random forest/train/3: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "Random forest/test/3: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "Random forest/train/4: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "Random forest/test/4: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "Random forest/train/5: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "Random forest/test/5: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "ExtraTrees/train/1: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "ExtraTrees/test/1: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "ExtraTrees/train/2: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "ExtraTrees/test/2: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "ExtraTrees/train/3: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "ExtraTrees/test/3: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "ExtraTrees/train/4: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "ExtraTrees/test/4: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "ExtraTrees/train/5: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "ExtraTrees/test/5: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "GPR/train/1: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "GPR/test/1: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "GPR/train/2: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "GPR/test/2: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "GPR/train/3: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "GPR/test/3: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "GPR/train/4: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "GPR/test/4: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "GPR/train/5: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "GPR/test/5: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "TabPFN/train/1: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "TabPFN/test/1: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "TabPFN/train/2: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "TabPFN/test/2: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "TabPFN/train/3: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "TabPFN/test/3: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "TabPFN/train/4: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "TabPFN/test/4: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "TabPFN/train/5: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "TabPFN/test/5: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "Training-median baseline/train/1: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "Training-median baseline/test/1: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "Training-median baseline/train/2: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "Training-median baseline/test/2: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "Training-median baseline/train/3: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "Training-median baseline/test/3: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "Training-median baseline/train/4: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "Training-median baseline/test/4: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "Training-median baseline/train/5: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "Training-median baseline/test/5: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "One-hot Ridge baseline/train/1: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "One-hot Ridge baseline/test/1: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "One-hot Ridge baseline/train/2: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "One-hot Ridge baseline/test/2: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "One-hot Ridge baseline/train/3: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "One-hot Ridge baseline/test/3: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "One-hot Ridge baseline/train/4: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "One-hot Ridge baseline/test/4: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "One-hot Ridge baseline/train/5: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "One-hot Ridge baseline/test/5: AUC/errors/confusion verified",
+      "passed": true
+    },
+    {
+      "check": "492 inner validation assignment records, one per eligible sequence/outer fold",
+      "passed": true
+    },
+    {
+      "check": "Outer 1: inner assignments use only outer training sequences",
+      "passed": true
+    },
+    {
+      "check": "Outer 1/inner 1: no family crosses fit/validation",
+      "passed": true
+    },
+    {
+      "check": "Outer 1/inner 2: no family crosses fit/validation",
+      "passed": true
+    },
+    {
+      "check": "Outer 1/inner 3: no family crosses fit/validation",
+      "passed": true
+    },
+    {
+      "check": "Outer 2: inner assignments use only outer training sequences",
+      "passed": true
+    },
+    {
+      "check": "Outer 2/inner 1: no family crosses fit/validation",
+      "passed": true
+    },
+    {
+      "check": "Outer 2/inner 2: no family crosses fit/validation",
+      "passed": true
+    },
+    {
+      "check": "Outer 2/inner 3: no family crosses fit/validation",
+      "passed": true
+    },
+    {
+      "check": "Outer 3: inner assignments use only outer training sequences",
+      "passed": true
+    },
+    {
+      "check": "Outer 3/inner 1: no family crosses fit/validation",
+      "passed": true
+    },
+    {
+      "check": "Outer 3/inner 2: no family crosses fit/validation",
+      "passed": true
+    },
+    {
+      "check": "Outer 3/inner 3: no family crosses fit/validation",
+      "passed": true
+    },
+    {
+      "check": "Outer 4: inner assignments use only outer training sequences",
+      "passed": true
+    },
+    {
+      "check": "Outer 4/inner 1: no family crosses fit/validation",
+      "passed": true
+    },
+    {
+      "check": "Outer 4/inner 2: no family crosses fit/validation",
+      "passed": true
+    },
+    {
+      "check": "Outer 4/inner 3: no family crosses fit/validation",
+      "passed": true
+    },
+    {
+      "check": "Outer 5: inner assignments use only outer training sequences",
+      "passed": true
+    },
+    {
+      "check": "Outer 5/inner 1: no family crosses fit/validation",
+      "passed": true
+    },
+    {
+      "check": "Outer 5/inner 2: no family crosses fit/validation",
+      "passed": true
+    },
+    {
+      "check": "Outer 5/inner 3: no family crosses fit/validation",
+      "passed": true
+    },
+    {
+      "check": "Packaged input SHA256: data/uniform_single_seed_labels.csv",
+      "passed": true
+    },
+    {
+      "check": "Packaged input SHA256: data/outer_assignments.csv",
+      "passed": true
+    },
+    {
+      "check": "Packaged input SHA256: data/training_group_CV_assignments.csv",
+      "passed": true
+    },
+    {
+      "check": "Packaged input SHA256: data/hyena_features.npz",
+      "passed": true
+    }
+  ],
+  "algorithms": 7,
+  "baselines": 2,
+  "unique_sequences": 123,
+  "OOF_records": 1107,
+  "repeated_training_records": 4428
+}

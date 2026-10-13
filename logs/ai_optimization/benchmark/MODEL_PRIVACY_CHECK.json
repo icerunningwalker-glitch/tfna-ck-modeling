@@ -1,0 +1,252 @@
+{
+  "status": "passed",
+  "trusted_joblib_snapshots": 35,
+  "models": [
+    {
+      "file": "models/extratrees_fold1.joblib",
+      "sha256": "775c842445900d8f17e5f11e8c59298ef7deda550db5e87f9d6e969d39eab954",
+      "source_bytes_unchanged": true,
+      "personal_path_or_name_found": false,
+      "estimator_module": "sklearn.compose._target"
+    },
+    {
+      "file": "models/extratrees_fold2.joblib",
+      "sha256": "8280fa3f9ba46346e8a5e65df9e15f6730ff2eeb962d27bf51f1e8116351ad7a",
+      "source_bytes_unchanged": true,
+      "personal_path_or_name_found": false,
+      "estimator_module": "sklearn.compose._target"
+    },
+    {
+      "file": "models/extratrees_fold3.joblib",
+      "sha256": "fa353a53ae45d004aeaad0d74138c7fbcde1c6ecaddaf4c860138f9d3af979dc",
+      "source_bytes_unchanged": true,
+      "personal_path_or_name_found": false,
+      "estimator_module": "sklearn.compose._target"
+    },
+    {
+      "file": "models/extratrees_fold4.joblib",
+      "sha256": "d100f9480a9eec5f60ef51b0144b3666c9d658d6e8202ee2f9d17763f8baf89d",
+      "source_bytes_unchanged": true,
+      "personal_path_or_name_found": false,
+      "estimator_module": "sklearn.compose._target"
+    },
+    {
+      "file": "models/extratrees_fold5.joblib",
+      "sha256": "513f81e8c7c481bb34207a23f4832a781658eea3d89cd869081391555b9d7bda",
+      "source_bytes_unchanged": true,
+      "personal_path_or_name_found": false,
+      "estimator_module": "sklearn.compose._target"
+    },
+    {
+      "file": "models/gpr_fold1.joblib",
+      "sha256": "29abd5795f905952d9e887b152a598e31ff206cfdc83a3e8ba3a2b65ff4c2606",
+      "source_bytes_unchanged": true,
+      "personal_path_or_name_found": false,
+      "estimator_module": "sklearn.compose._target"
+    },
+    {
+      "file": "models/gpr_fold2.joblib",
+      "sha256": "8c37628124a4fa6cff55b638e929c129a63c89284cb86d428e85cffcd9741d86",
+      "source_bytes_unchanged": true,
+      "personal_path_or_name_found": false,
+      "estimator_module": "sklearn.compose._target"
+    },
+    {
+      "file": "models/gpr_fold3.joblib",
+      "sha256": "9bb1b619667545c65b7d47e200490c7b0dee6ffa6d0da41f0f5a8016d509291c",
+      "source_bytes_unchanged": true,
+      "personal_path_or_name_found": false,
+      "estimator_module": "sklearn.compose._target"
+    },
+    {
+      "file": "models/gpr_fold4.joblib",
+      "sha256": "fd3b526020dfff166b581a48b988cf03fae04a28b4c6787b6b9feb32e67aa00f",
+      "source_bytes_unchanged": true,
+      "personal_path_or_name_found": false,
+      "estimator_module": "sklearn.compose._target"
+    },
+    {
+      "file": "models/gpr_fold5.joblib",
+      "sha256": "c5fc8cfa9063743e6c4a2754996991e36f0c375aeea32953057616f7fd9dd47e",
+      "source_bytes_unchanged": true,
+      "personal_path_or_name_found": false,
+      "estimator_module": "sklearn.compose._target"
+    },
+    {
+      "file": "models/mlp_fold1.joblib",
+      "sha256": "74499e292ba33f17ff57140ca2b2e6775acd46248fb6fc21473a309680980eb8",
+      "source_bytes_unchanged": true,
+      "personal_path_or_name_found": false,
+      "estimator_module": "sklearn.compose._target"
+    },
+    {
+      "file": "models/mlp_fold2.joblib",
+      "sha256": "badb49788a6e8d5d9416ed21329116d88e10f1283131093181601c21d98f0e41",
+      "source_bytes_unchanged": true,
+      "personal_path_or_name_found": false,
+      "estimator_module": "sklearn.compose._target"
+    },
+    {
+      "file": "models/mlp_fold3.joblib",
+      "sha256": "19b3cd8a92af2b0805100f81aef64dc9f965ef0c903443f436ac7d7fad1157fb",
+      "source_bytes_unchanged": true,
+      "personal_path_or_name_found": false,
+      "estimator_module": "sklearn.compose._target"
+    },
+    {
+      "file": "models/mlp_fold4.joblib",
+      "sha256": "167b83084d09663b19a86f35304f0eada137b4a7b5b12666d369ef9f966f2c2b",
+      "source_bytes_unchanged": true,
+      "personal_path_or_name_found": false,
+      "estimator_module": "sklearn.compose._target"
+    },
+    {
+      "file": "models/mlp_fold5.joblib",
+      "sha256": "8bdb2f883fa1f24ffaac1e23ef4300bbaed5e2706b7ea6c46925fbcc75e2bc44",
+      "source_bytes_unchanged": true,
+      "personal_path_or_name_found": false,
+      "estimator_module": "sklearn.compose._target"
+    },
+    {
+      "file": "models/one_hot_ridge_baseline_fold1.joblib",
+      "sha256": "50c05b3c9c0ef3a36afd3d0e3a451902484972052b6d6400db0999af69797e63",
+      "source_bytes_unchanged": true,
+      "personal_path_or_name_found": false,
+      "estimator_module": "sklearn.compose._target"
+    },
+    {
+      "file": "models/one_hot_ridge_baseline_fold2.joblib",
+      "sha256": "079fbe47ef2c3edac1df4d066fa10db4c24a32b20b61945fa1d833c9836303aa",
+      "source_bytes_unchanged": true,
+      "personal_path_or_name_found": false,
+      "estimator_module": "sklearn.compose._target"
+    },
+    {
+      "file": "models/one_hot_ridge_baseline_fold3.joblib",
+      "sha256": "c0b57bfd7e298290eb9044551f44d4b278f5acb4175f5f241393fe7c628fa730",
+      "source_bytes_unchanged": true,
+      "personal_path_or_name_found": false,
+      "estimator_module": "sklearn.compose._target"
+    },
+    {
+      "file": "models/one_hot_ridge_baseline_fold4.joblib",
+      "sha256": "db3a5533f006fea57fe3831bff98ac23c3e5e1a0981ff0ef9b111a00902a9586",
+      "source_bytes_unchanged": true,
+      "personal_path_or_name_found": false,
+      "estimator_module": "sklearn.compose._target"
+    },
+    {
+      "file": "models/one_hot_ridge_baseline_fold5.joblib",
+      "sha256": "4ba548b550a2909d8d9470d62ab3df0abffe57846d84b5312a890d380798836f",
+      "source_bytes_unchanged": true,
+      "personal_path_or_name_found": false,
+      "estimator_module": "sklearn.compose._target"
+    },
+    {
+      "file": "models/random_forest_fold1.joblib",
+      "sha256": "3046779c8caabaf6a8eae5a6bff80c2c0a057b4e0598cb94d68acb24030ce9cf",
+      "source_bytes_unchanged": true,
+      "personal_path_or_name_found": false,
+      "estimator_module": "sklearn.compose._target"
+    },
+    {
+      "file": "models/random_forest_fold2.joblib",
+      "sha256": "99a5ec56266784e6e4fd3f624c24a4fc863ce010e09fbbdb2e8365237f6255df",
+      "source_bytes_unchanged": true,
+      "personal_path_or_name_found": false,
+      "estimator_module": "sklearn.compose._target"
+    },
+    {
+      "file": "models/random_forest_fold3.joblib",
+      "sha256": "6bd8dcd9049c5e9f5cbf97e98aadc320b3141c8aa0fae5a1545d291d0af916cc",
+      "source_bytes_unchanged": true,
+      "personal_path_or_name_found": false,
+      "estimator_module": "sklearn.compose._target"
+    },
+    {
+      "file": "models/random_forest_fold4.joblib",
+      "sha256": "5a2f1cc6f1002fd1f97feecf242861f764a2252af0656c3b1bd7a902f3fc06a1",
+      "source_bytes_unchanged": true,
+      "personal_path_or_name_found": false,
+      "estimator_module": "sklearn.compose._target"
+    },
+    {
+      "file": "models/random_forest_fold5.joblib",
+      "sha256": "b0eb7c7b7f6c95096deafab8582d11c6bd6fbf5e7315a65979408eeffa71ccd2",
+      "source_bytes_unchanged": true,
+      "personal_path_or_name_found": false,
+      "estimator_module": "sklearn.compose._target"
+    },
+    {
+      "file": "models/ridge_fold1.joblib",
+      "sha256": "6fd0d3427575ad5058f7e4b73054811fa9538562abddbcf039d476d39196b223",
+      "source_bytes_unchanged": true,
+      "personal_path_or_name_found": false,
+      "estimator_module": "sklearn.compose._target"
+    },
+    {
+      "file": "models/ridge_fold2.joblib",
+      "sha256": "ea6da3fb28af85595b4d98ef99dd444a3838595f3cede31a2f45b18554658ae6",
+      "source_bytes_unchanged": true,
+      "personal_path_or_name_found": false,
+      "estimator_module": "sklearn.compose._target"
+    },
+    {
+      "file": "models/ridge_fold3.joblib",
+      "sha256": "dc20632935016ce1336d5d17a1504b8a7b38785ade48b8bedd8dc1af2b0ccb63",
+      "source_bytes_unchanged": true,
+      "personal_path_or_name_found": false,
+      "estimator_module": "sklearn.compose._target"
+    },
+    {
+      "file": "models/ridge_fold4.joblib",
+      "sha256": "2d5bf5d255ee6b0c26697a08a0a6a67c852e149557fc75d402d255ff83a8d256",
+      "source_bytes_unchanged": true,
+      "personal_path_or_name_found": false,
+      "estimator_module": "sklearn.compose._target"
+    },
+    {
+      "file": "models/ridge_fold5.joblib",
+      "sha256": "595e17a8f26d9b36ff289fa99a31c700e4f3b2d534875ddf7819f09c5cdb3dde",
+      "source_bytes_unchanged": true,
+      "personal_path_or_name_found": false,
+      "estimator_module": "sklearn.compose._target"
+    },
+    {
+      "file": "models/svr_fold1.joblib",
+      "sha256": "2745cb3f38dee9b0a6986cfbba670c3fd14f704e1afc7406562790b697bf21ad",
+      "source_bytes_unchanged": true,
+      "personal_path_or_name_found": false,
+      "estimator_module": "sklearn.compose._target"
+    },
+    {
+      "file": "models/svr_fold2.joblib",
+      "sha256": "f998572a66c85bf8104fd6bd829efb6585f2a28eb4c0d53f32c609b5014703c3",
+      "source_bytes_unchanged": true,
+      "personal_path_or_name_found": false,
+      "estimator_module": "sklearn.compose._target"
+    },
+    {
+      "file": "models/svr_fold3.joblib",
+      "sha256": "ec95f255e2af037d813077c885334854556434bd776e710722eebf03e3e53cac",
+      "source_bytes_unchanged": true,
+      "personal_path_or_name_found": false,
+      "estimator_module": "sklearn.compose._target"
+    },
+    {
+      "file": "models/svr_fold4.joblib",
+      "sha256": "4a45a4357d495640d1845417dd7fa18ef5435e8371b910c7029c2b994ed32425",
+      "source_bytes_unchanged": true,
+      "personal_path_or_name_found": false,
+      "estimator_module": "sklearn.compose._target"
+    },
+    {
+      "file": "models/svr_fold5.joblib",
+      "sha256": "c99a9ac3e71fe2a0a5e766f6e3135b0c2d94f428b5299da57016420096c3bf85",
+      "source_bytes_unchanged": true,
+      "personal_path_or_name_found": false,
+      "estimator_module": "sklearn.compose._target"
+    }
+  ],
+  "caveat": "This object/string audit is supplemented by package-wide text/binary privacy checks."
+}

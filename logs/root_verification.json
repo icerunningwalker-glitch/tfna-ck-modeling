@@ -1,0 +1,59 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "Python source parses",
+      "passed": true
+    },
+    {
+      "check": "84 unique standard candidate rows",
+      "passed": true
+    },
+    {
+      "check": "Submission columns match schema",
+      "passed": true
+    },
+    {
+      "check": "No synthetic row in scientific results",
+      "passed": true
+    },
+    {
+      "check": "Four 63-nt DNA strands per AI candidate",
+      "passed": true
+    },
+    {
+      "check": "Paired versus nucleotide changes",
+      "passed": true
+    },
+    {
+      "check": "No invented sequence-only structures",
+      "passed": true
+    },
+    {
+      "check": "Root inference reproduces final candidate content",
+      "passed": true
+    },
+    {
+      "check": "Synthetic screening rejected by final exporter",
+      "passed": true
+    },
+    {
+      "check": "Saved reference mass conservation",
+      "passed": true
+    },
+    {
+      "check": "Saved reference nonnegative states",
+      "passed": true
+    },
+    {
+      "check": "Saved reference supply stops after removal",
+      "passed": true
+    }
+  ],
+  "actual_inference": true,
+  "model_snapshots_loaded": true,
+  "synthetic_excluded": true,
+  "new_training": false,
+  "new_real_docking": false,
+  "transport_check": "saved physical checks; full fresh simulation is recorded separately"
+}

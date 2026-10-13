@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "package_version": "portable_20261004",
+  "cached_84_scores_reproduced": true,
+  "historical_pool_size": 1854,
+  "historical_selection_replayed": true,
+  "relocated_archive_runs": [
+    {
+      "entry": "verify_package.py",
+      "exit_code": 0
+    },
+    {
+      "entry": "predict.py",
+      "exit_code": 0
+    }
+  ],
+  "relocated_results_identical": true,
+  "text_privacy_hits": 0,
+  "independent_model_privacy_audit": {
+    "joblib_files": 36,
+    "npz_files": 9,
+    "privacy_hits": 0,
+    "load_errors": 0
+  },
+  "CV_saved_metric_records_verified": {
+    "OOF": 1107,
+    "training_in_sample": 4428,
+    "summary": 18,
+    "per_fold": 90
+  },
+  "saved_fold_model_predictions_verified": 861,
+  "new_training": false,
+  "new_docking": false,
+  "new_MD": false,
+  "not_retested": [
+    "full_retraining",
+    "new_candidate_generation"
+  ],
+  "formal_submission_open_items": [
+    "official_track_and_template",
+    "original_data_redistribution_permissions",
+    "original_training_hardware_and_time",
+    "separate_TabPFN_V2_weight"
+  ]
+}
